@@ -1,0 +1,120 @@
+{
+  "checks": [
+    "snapshot and all three forecast horizons",
+    "horizon and causal historical origin controls",
+    "forecast CSV download",
+    "evaluation by horizon and year, negative R2 visible",
+    "six historical events and context zoom",
+    "CSV template download",
+    "new CSV inputs change forecast origin without training",
+    "local import persistence",
+    "malformed CSV rejected",
+    "original snapshot restore",
+    "mobile layout without horizontal page overflow",
+    "standalone HTML with no server or external requests",
+    "Python/Streamlit entry displays functional HTML application",
+    "dark background, panels and native control color scheme",
+    "all four tabs: no horizontal overflow at 1440, 768 and 390 px",
+    "all six event badges: no overlap, bounded by SVG, labels fit at three widths",
+    "all four views open with their heading visible",
+    "event full titles on hover/focus and zoom by Enter/click",
+    "model selection does not claim only six experiments",
+    "future CSV observation rejected without changing origin",
+    "no browser JavaScript errors"
+  ],
+  "passed": 21,
+  "pageErrors": [],
+  "screenshots": [
+    "desktop-forecast.png",
+    "desktop-evaluation.png",
+    "mobile-forecast.png",
+    "dark-desktop-pronostico.png",
+    "dark-desktop-contexto.png",
+    "dark-desktop-datos.png",
+    "dark-mobile-pronostico.png",
+    "dark-mobile-contexto.png",
+    "dark-mobile-datos.png"
+  ],
+  "theme": "dark",
+  "additionalChecks": [
+    "dark background, panels and native control color scheme",
+    "all four tabs: no horizontal overflow at 1440, 768 and 390 px",
+    "all six event badges: no overlap, bounded by SVG, labels fit at three widths",
+    "all four views open with their heading visible",
+    "event full titles on hover/focus and zoom by Enter/click",
+    "model selection does not claim only six experiments",
+    "future CSV observation rejected without changing origin",
+    "no browser JavaScript errors"
+  ],
+  "additionalPassed": 8,
+  "totalPassed": 21,
+  "viewports": [
+    {
+      "width": 1440,
+      "tab": "pronostico",
+      "documentWidth": 1440
+    },
+    {
+      "width": 1440,
+      "tab": "evaluacion",
+      "documentWidth": 1440
+    },
+    {
+      "width": 1440,
+      "tab": "contexto",
+      "documentWidth": 1440,
+      "eventBadges": 6,
+      "badgesDoNotOverlap": true
+    },
+    {
+      "width": 1440,
+      "tab": "datos",
+      "documentWidth": 1440
+    },
+    {
+      "width": 768,
+      "tab": "pronostico",
+      "documentWidth": 768
+    },
+    {
+      "width": 768,
+      "tab": "evaluacion",
+      "documentWidth": 768
+    },
+    {
+      "width": 768,
+      "tab": "contexto",
+      "documentWidth": 768,
+      "eventBadges": 6,
+      "badgesDoNotOverlap": true
+    },
+    {
+      "width": 768,
+      "tab": "datos",
+      "documentWidth": 768
+    },
+    {
+      "width": 390,
+      "tab": "pronostico",
+      "documentWidth": 390
+    },
+    {
+      "width": 390,
+      "tab": "evaluacion",
+      "documentWidth": 390
+    },
+    {
+      "width": 390,
+      "tab": "contexto",
+      "documentWidth": 390,
+      "eventBadges": 6,
+      "badgesDoNotOverlap": true
+    },
+    {
+      "width": 390,
+      "tab": "datos",
+      "documentWidth": 390
+    }
+  ],
+  "basePassed": 13
+}

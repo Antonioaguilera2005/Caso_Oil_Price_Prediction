@@ -1,0 +1,8 @@
+architecture,trial,hidden_size,num_layers,head_size,pooling,batch_size,weight_decay,loss,scheduler,dropout,learning_rate,epochs,seed,gradient_clip_norm,cpu_threads,recommended
+RNN,0,32,1,0,last,128,0.0,mse,False,0.0,0.001,40,42,1.0,1,True
+RNN,24,16,1,0,last,64,0.0001,huber,False,0.07522260733261435,0.0016043671226801297,40,42,1.0,1,False
+LSTM,3,32,1,32,max,64,0.001,mse,False,0.11685785941408727,0.0003476649150592621,40,42,1.0,1,True
+LSTM,0,32,1,0,last,128,0.0,mse,False,0.0,0.001,40,42,1.0,1,False
+GRU,24,32,1,0,last,128,0.0,mse,False,0.16355872118519432,0.001722115140113572,40,42,1.0,1,True
+GRU,27,32,1,0,last,128,1e-05,mse,False,0.1621701846063242,0.0015167169241085208,40,42,1.0,1,False
+GRU,0,32,1,0,last,128,0.0,mse,False,0.0,0.001,40,42,1.0,1,False

@@ -1,0 +1,37 @@
+{
+  "condition": {
+    "variant": "levels",
+    "trial": "l2_001",
+    "score": 0.9136180276317872,
+    "score_std": 0.06434126366229038,
+    "branches": 1,
+    "parameters": 4365.666666666667
+  },
+  "ranking": [
+    {
+      "variant": "levels",
+      "trial": "l2_001",
+      "score": 0.9136180276317872,
+      "score_std": 0.06434126366229038,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "window20",
+      "score": 0.9103633403140677,
+      "score_std": 0.06484932547199487,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "control",
+      "score": 0.9764397801977042,
+      "score_std": 0.03827815972186903,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    }
+  ],
+  "scope": "development candidate; chosen using validation, not independent test"
+}

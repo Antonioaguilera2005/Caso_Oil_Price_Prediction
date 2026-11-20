@@ -1,0 +1,26 @@
+{
+  "series": "DCOILBRENTEU",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=DCOILBRENTEU",
+  "first_listed_vintage": "2011-04-06",
+  "last_listed_vintage": "2026-11-12",
+  "listed_vintages": 808,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-11",
+  "downloaded_at_utc": "2026-11-14T18:38:49.236624+00:00",
+  "chunks": [
+    {
+      "file": "DCOILBRENTEU_realtime_part001.zip",
+      "first_selected_vintage": "2011-04-06",
+      "last_selected_vintage": "2019-11-27",
+      "sha256": "c85c0bc8e424c7d6a09dbfc3c31912ba57cc35aae6472e421c3887190065600e"
+    },
+    {
+      "file": "DCOILBRENTEU_realtime_part002.zip",
+      "first_selected_vintage": "2019-12-04",
+      "last_selected_vintage": "2026-11-12",
+      "sha256": "3bee8ac874ce16f9f87c1a3ff8f77e4bf36a4f33ed729d8ba94e9d34970459b0"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

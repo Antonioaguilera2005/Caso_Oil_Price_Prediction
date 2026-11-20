@@ -1,0 +1,68 @@
+{
+  "series": "VIXCLS",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=VIXCLS",
+  "first_listed_vintage": "2010-11-22",
+  "last_listed_vintage": "2026-11-12",
+  "listed_vintages": 3973,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-12",
+  "downloaded_at_utc": "2026-11-14T18:40:46.974250+00:00",
+  "chunks": [
+    {
+      "file": "VIXCLS_realtime_part001.zip",
+      "first_selected_vintage": "2010-11-22",
+      "last_selected_vintage": "2012-09-20",
+      "sha256": "60a1e4246aee6a9ce0e0fe5251dd83c1a58008b2100cc52f190e82e375a50c10"
+    },
+    {
+      "file": "VIXCLS_realtime_part002.zip",
+      "first_selected_vintage": "2012-09-21",
+      "last_selected_vintage": "2014-07-30",
+      "sha256": "ed8af711b735bee0f918d72bb8047e3f41c6003de876444a313cb40a6efdc855"
+    },
+    {
+      "file": "VIXCLS_realtime_part003.zip",
+      "first_selected_vintage": "2014-07-31",
+      "last_selected_vintage": "2016-05-11",
+      "sha256": "32b516035949680416b9a756176bc19d90c07573ca541fca42801948a8bc46d8"
+    },
+    {
+      "file": "VIXCLS_realtime_part004.zip",
+      "first_selected_vintage": "2016-05-12",
+      "last_selected_vintage": "2018-02-26",
+      "sha256": "0a02e90af229695b12165440b4b6bf322044cafb0449fb968a04e437f0d472db"
+    },
+    {
+      "file": "VIXCLS_realtime_part005.zip",
+      "first_selected_vintage": "2018-02-27",
+      "last_selected_vintage": "2019-12-11",
+      "sha256": "26d652e1de8d472160be3c0b016f2f81e99ade1fe86be06bb98421c0e78325ba"
+    },
+    {
+      "file": "VIXCLS_realtime_part006.zip",
+      "first_selected_vintage": "2019-12-12",
+      "last_selected_vintage": "2021-09-28",
+      "sha256": "46b82e9705cf9b3d4ce6feae9f340d9f24cf7c1171936978ac3be1caaef32882"
+    },
+    {
+      "file": "VIXCLS_realtime_part007.zip",
+      "first_selected_vintage": "2021-09-29",
+      "last_selected_vintage": "2023-07-18",
+      "sha256": "83f673833faa631aef80099b20eb2fc615a2d4ad17e9c679ccf7957ab432f98a"
+    },
+    {
+      "file": "VIXCLS_realtime_part008.zip",
+      "first_selected_vintage": "2023-07-19",
+      "last_selected_vintage": "2025-05-02",
+      "sha256": "07e65b7b6c99dce1d5ee62210a8bbbd9871ad864f353a7d0f7824e45116c5e19"
+    },
+    {
+      "file": "VIXCLS_realtime_part009.zip",
+      "first_selected_vintage": "2025-05-05",
+      "last_selected_vintage": "2026-11-12",
+      "sha256": "e1602b44f784ab88db2dd7763431b8f5434dcb69718b74742d96b614f7cfe536"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-20T09:11:42.964744+00:00",
+  "plan_sha256": "3de3845038657946fb33c6233736f60729fca33c7c8bc152e1108bc1b5c7f46b",
+  "models_evaluated": 6,
+  "models_retrained": 0,
+  "seed": 42,
+  "test_evaluated": true,
+  "original_checkpoints_unchanged": true,
+  "previous_period_evaluation": "The 2023-2024 block was already evaluated for another model pipeline. This execution compares the six recovered frozen checkpoints on that same historical block; it is not the first use of that block.",
+  "files": {
+    "opened.json": "f6f99f4757886e559bd232c8a70add7ee0b80d37629eb50e677bbbbc1e68b55e",
+    "predictions.csv": "6ef8986e9cbf2b1b7702332eef10c85964e42b3ae4efacaa43d614f20262ca25",
+    "metrics.csv": "1304a616e911394f7b5958738940c4b9b27e2abd6387d91e9175191118c1f9dc",
+    "sample_counts.csv": "60942c0aa5e26d48ab924ddab55a0add0bf70730bc5fab29fc5f61cf6ab2a788",
+    "validation_metrics.csv": "b948c8513b66d50223c3d04a0587bacc1f522d288d4a035bb34eabdbecb0972c",
+    "replay.json": "a90a400c1d8acd2950157ece6ebaad292e8ae67c4d14a79ad43656be8f794e29"
+  }
+}

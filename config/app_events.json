@@ -1,0 +1,50 @@
+[
+  {
+    "id": "crisis-2008",
+    "date": "2008-07-01",
+    "endDate": "2008-12-31",
+    "title": "2008 · Auge y crisis financiera",
+    "description": "La expansión mundial y la escasa capacidad de producción disponible acompañaron la subida del crudo hasta el verano. La recesión del otoño cambió el panorama: los precios cayeron con fuerza. La franja señala el período económico, no el día exacto del máximo.",
+    "sourceUrl": "https://www.eia.gov/finance/markets/reports_presentations/2012paperbrentwti.pdf"
+  },
+  {
+    "id": "exceso-oferta-2014-2015",
+    "date": "2014-06-01",
+    "endDate": "2015-12-31",
+    "title": "2014–2015 · Exceso de oferta",
+    "description": "La oferta mundial superó la demanda y aumentaron los inventarios. El Brent mantuvo una fuerte caída respecto a 2014. Este episodio muestra que una producción abundante puede presionar los precios incluso sin un desplome súbito de la actividad económica.",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=24432"
+  },
+  {
+    "id": "oferta-acuerdos-2016",
+    "date": "2016-01-01",
+    "endDate": "2016-12-31",
+    "title": "2016 · Inventarios altos y recuperación",
+    "description": "La producción y los inventarios elevados siguieron presionando los precios durante buena parte del año. Al final, los acuerdos de reducción de producción de la OPEP y otros productores favorecieron la recuperación. El promedio anual del Brent siguió por debajo del de 2015.",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=29412"
+  },
+  {
+    "id": "pandemia-2020",
+    "date": "2020-03-01",
+    "endDate": "2020-06-30",
+    "title": "2020 · Pandemia y caída de la demanda",
+    "description": "Las restricciones de movilidad redujeron bruscamente la demanda de petróleo mientras aumentaban los inventarios. El Brent cayó y el contrato de futuros del WTI llegó a negociar en negativo el 20 de abril. Ese episodio del WTI no significa que el Brent también fuese negativo.",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=46336"
+  },
+  {
+    "id": "ucrania-2022",
+    "date": "2022-02-24",
+    "endDate": "2022-06-30",
+    "title": "2022 · Invasión de Ucrania",
+    "description": "La invasión rusa y las sanciones posteriores elevaron los precios del crudo y la incertidumbre sobre el suministro. Más adelante también pesaron las expectativas de desaceleración económica. Son cambios de escenario que una red basada en observaciones pasadas puede anticipar con dificultad.",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=55059"
+  },
+  {
+    "id": "movimientos-recientes-2026",
+    "date": "2026-10-01",
+    "endDate": "2026-11-18",
+    "title": "2026 · Transporte, inventarios y oferta",
+    "description": "La EIA relacionó los precios elevados de octubre con inventarios menores y restricciones de oferta y transporte en Oriente Medio. Hasta el 18 de noviembre, el Brent había bajado al mejorar los flujos por Ormuz. Esta explicación histórica procede de la EIA, no de una atribución del modelo.",
+    "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=68485"
+  }
+]

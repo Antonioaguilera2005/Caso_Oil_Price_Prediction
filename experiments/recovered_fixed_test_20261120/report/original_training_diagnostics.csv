@@ -1,0 +1,7 @@
+architecture,variant,seed,selected_epoch,epochs_run,parameters,overfit_signal
+RNN,levels,42,27,37,1699,False
+RNN,signals,42,17,27,1699,True
+LSTM,levels,42,24,34,7555,False
+LSTM,signals,42,39,40,7555,False
+GRU,levels,42,21,31,4899,False
+GRU,signals,42,15,25,4899,True

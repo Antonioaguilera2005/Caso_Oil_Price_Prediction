@@ -1,0 +1,20 @@
+# The browser runs the frozen RNN locally. No Python server or visitor login.
+services:
+  - type: web
+    name: brent-observatorio
+    runtime: static
+    buildCommand: python3 -m scripts.build_app
+    staticPublishPath: app_site/dist
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate

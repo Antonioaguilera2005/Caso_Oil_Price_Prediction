@@ -1,0 +1,14 @@
+{
+  "id": "rnn-signals-seed42-fixed2017",
+  "name": "RNN con señales",
+  "architecture": "RNN",
+  "variant": "signals",
+  "seed": 42,
+  "checkpoint": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/model.pt",
+  "settings": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/settings.json",
+  "scaler": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/scaler.json",
+  "evaluation": "experiments/recovered_fixed_test_20261120",
+  "window": 60,
+  "horizons": [5, 63, 252],
+  "selection": "User selected RNN with signals on 2026-11-20 after reviewing the six recovered models and their historical comparison. Keep exactly the evaluated seed42 checkpoint; no retraining or blending."
+}

@@ -1,0 +1,11 @@
+{
+  "models_fitted": 18,
+  "checkpoints_verified": 18,
+  "maximum_prediction_difference": 0.0,
+  "test_evaluated": false,
+  "annual_weight_refit": false,
+  "sum_fit_seconds": 257.3802096998552,
+  "overfit_signals": 5,
+  "invocation_seconds": 267.7918251999654,
+  "validation_used_for_epoch_selection": true
+}

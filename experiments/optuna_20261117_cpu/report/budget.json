@@ -1,0 +1,28 @@
+{
+  "counts": [
+    {
+      "architecture": "RNN",
+      "complete_trials": 25,
+      "pruned_trials": 15,
+      "failed_trials": 0
+    },
+    {
+      "architecture": "LSTM",
+      "complete_trials": 17,
+      "pruned_trials": 23,
+      "failed_trials": 0
+    },
+    {
+      "architecture": "GRU",
+      "complete_trials": 20,
+      "pruned_trials": 12,
+      "failed_trials": 0
+    }
+  ],
+  "complete_search_fits": 248,
+  "partial_pruned_fits": 50,
+  "new_confirmation_fits": 56,
+  "total_fits_including_partial": 354,
+  "total_epochs": 5947,
+  "sum_fit_seconds": 4985.843976599921
+}

@@ -1,0 +1,15 @@
+{
+  "origins": 5,
+  "maximum_signal_difference": 1.3322676295501878e-15,
+  "maximum_price_difference_usd": 1.231848315796924e-06,
+  "chosen_model": "rnn-signals-seed42-fixed2017",
+  "models_retrained": 0,
+  "tolerance_usd": 0.0001,
+  "dates": [
+    "2016-06-15",
+    "2020-04-28",
+    "2023-01-03",
+    "2024-12-27",
+    "2026-11-13"
+  ]
+}

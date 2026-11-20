@@ -1,0 +1,24 @@
+{
+  "model_id": "rnn-signals-seed42-fixed2017",
+  "checkpoint_sha256": "396a44bd61bab1e2928614ea4f68f04559c3fb27ba5c85cd64f01cf88c59c4c4",
+  "model_retrained": false,
+  "weights_format": "JSON arrays containing exact original float32 values",
+  "source_files": {
+    "experiments/fixed_split_2017_2022/RNN/signals/seed_42/model.pt": "396a44bd61bab1e2928614ea4f68f04559c3fb27ba5c85cd64f01cf88c59c4c4",
+    "experiments/fixed_split_2017_2022/RNN/signals/seed_42/settings.json": "45975593998a189d530a9fc52fa1bf8f13e42ba2e220dc9efe2de53aaaaedb6c",
+    "experiments/fixed_split_2017_2022/RNN/signals/seed_42/scaler.json": "d5263f1d658954ed58c0f50b1dce26f0d4275a43404d9b3c1c8eb513f5a74394"
+  },
+  "files": {
+    "README.md": "ac9fbb0a6bf9f8b230ba77c205d6538919b36e5ee0afcf214cb67e787a26c09d",
+    "model.json": "abe2985e1fb211c1a0b22fa3d5ccfb7af6f3160dee5511bf2154a1388c78b678",
+    "scaler.json": "ee614730d90240457510b7108f5ed6a43ba0afacc5731d41bfd4a680dad16aff",
+    "settings.json": "ab5c276d18f5debe70480e43f823949c02b57d976411c18cc0ec4364bcae37f6",
+    "metrics.json": "5503e47b4a59f20300745f84e93dd306aa196b9873973a54970ba9383d867618",
+    "preprocessing.json": "6ad0f9fead210ff1dcb40c0b4f029016c8752d6566691be40e52f00a2c296f22",
+    "engine.js": "8956e939b45eeddd2ecb8c2622680f1f54a3f14f7dda187d33d124f9b49ca06b",
+    "package.json": "f3b6d53e1d7691c59a6cc1e76b2d4b3fcdc0ec618bbe035d6bf0e1c026d31434",
+    "inference.py": "21b17430d603cae62795d151627086f3964f6cd7ff7ebcc4069ca79bc9c10cca",
+    "requirements.txt": "568ecfe8cc96cfaaa3ee45ca036eb5278d885be0d501f8d6db0e4478bb62e0ff",
+    ".gitignore": "032bf1e2398a2383f2e0d9aca3166ba4e7fee93e9570cfc5756b06d22bfd05cd"
+  }
+}

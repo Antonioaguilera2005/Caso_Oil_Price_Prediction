@@ -1,0 +1,178 @@
+{
+  "conditions": [
+    [
+      "levels",
+      "window20"
+    ],
+    [
+      "levels",
+      "l2_001"
+    ],
+    [
+      "signals",
+      "control"
+    ]
+  ],
+  "search_ranking": [
+    {
+      "variant": "levels",
+      "trial": "window20",
+      "score": 0.8635446819251427,
+      "score_std": 0.003873372123209977,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "l2_001",
+      "score": 0.8838874941242154,
+      "score_std": 0.031109278757855685,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "control",
+      "score": 0.912068596306907,
+      "score_std": 0.07350085246516569,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "l2_0001",
+      "score": 0.9078245018446109,
+      "score_std": 0.07549535287769511,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "l2_0001",
+      "score": 0.9503233752055468,
+      "score_std": 0.06664962538895972,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "l2_001",
+      "score": 0.9454475851565037,
+      "score_std": 0.07592278194914476,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "control",
+      "score": 0.9507220448736073,
+      "score_std": 0.06574893866079541,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "huber",
+      "score": 0.9489229267929303,
+      "score_std": 0.0679686978319982,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "scheduler",
+      "score": 0.9507220448736073,
+      "score_std": 0.06574893866079541,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "window20",
+      "score": 0.9503899822617302,
+      "score_std": 0.06777657333606928,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "small16",
+      "score": 0.9606472582534158,
+      "score_std": 0.05765750155274982,
+      "branches": 1,
+      "parameters": 1501.6666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "small16",
+      "score": 0.9645076873792097,
+      "score_std": 0.05186836165713751,
+      "branches": 1,
+      "parameters": 1501.6666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "slow_lr",
+      "score": 0.9612179598278683,
+      "score_std": 0.06236788729275428,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "scheduler",
+      "score": 0.9607183626462622,
+      "score_std": 0.05190124602958522,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "separate_returns",
+      "score": 0.9610169202097806,
+      "score_std": 0.019150803022757745,
+      "branches": 3,
+      "parameters": 12899.0
+    },
+    {
+      "variant": "levels",
+      "trial": "huber",
+      "score": 0.9791206243358319,
+      "score_std": 0.019868675399306576,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "returns",
+      "score": 0.9861865684999053,
+      "score_std": 0.0071352197662545545,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "signals",
+      "trial": "returns",
+      "score": 0.9881709389582759,
+      "score_std": 0.0050271469759180145,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    },
+    {
+      "variant": "levels",
+      "trial": "separate_returns",
+      "score": 0.9873693493190044,
+      "score_std": 0.0072074425796439774,
+      "branches": 3,
+      "parameters": 12899.0
+    },
+    {
+      "variant": "levels",
+      "trial": "slow_lr",
+      "score": 0.9970585125644206,
+      "score_std": 0.0016775880989591885,
+      "branches": 1,
+      "parameters": 4365.666666666667
+    }
+  ]
+}

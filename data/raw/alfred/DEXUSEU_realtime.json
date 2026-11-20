@@ -1,0 +1,26 @@
+{
+  "series": "DEXUSEU",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=DEXUSEU",
+  "first_listed_vintage": "2014-03-18",
+  "last_listed_vintage": "2026-11-09",
+  "listed_vintages": 661,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-06",
+  "downloaded_at_utc": "2026-11-14T18:40:31.109037+00:00",
+  "chunks": [
+    {
+      "file": "DEXUSEU_realtime_part001.zip",
+      "first_selected_vintage": "2014-03-18",
+      "last_selected_vintage": "2022-10-17",
+      "sha256": "bac2275d5d4937d897df74091ac4f31a487d760c0634622d0b3683518c092ee8"
+    },
+    {
+      "file": "DEXUSEU_realtime_part002.zip",
+      "first_selected_vintage": "2022-10-24",
+      "last_selected_vintage": "2026-11-09",
+      "sha256": "f64a7495ca5edc1221476f757ad8b3d6d79f5add74c769f5750253cdacd1efb1"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

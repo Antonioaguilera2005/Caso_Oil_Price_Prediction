@@ -1,0 +1,8 @@
+{
+  "python_lock_sha256": "a6dda49246b34406d2258a616e2a004350f6ab252e990455d071a0e8ff22130b",
+  "pyproject_sha256": "a736f88d0c2dfcb1e6dd1e8e4abb13e5ce66ba3034c086bddec3639d54210a58",
+  "optuna_version": "5.1.0",
+  "torch_version": "2.15.0+cpu",
+  "device": "cpu",
+  "threads_per_worker": 1
+}

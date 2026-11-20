@@ -1,0 +1,16 @@
+{
+  "hidden_size": 32,
+  "num_layers": 1,
+  "head_size": 0,
+  "pooling": "last",
+  "batch_size": 128,
+  "weight_decay": 0.0,
+  "loss": "mse",
+  "scheduler": false,
+  "dropout": 0.16355872118519432,
+  "learning_rate": 0.001722115140113572,
+  "epochs": 40,
+  "seed": 42,
+  "gradient_clip_norm": 1.0,
+  "cpu_threads": 1
+}

@@ -1,0 +1,8 @@
+{
+  "architecture": "RNN",
+  "finished_trials": 40,
+  "best_score": 0.9385511522528307,
+  "seconds_session": 876.5074570999714,
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}

@@ -1,0 +1,38 @@
+{
+  "series": "ECBDFR",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=ECBDFR",
+  "first_listed_vintage": "2021-03-11",
+  "last_listed_vintage": "2026-11-13",
+  "listed_vintages": 1406,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-13",
+  "downloaded_at_utc": "2026-11-14T18:40:26.629193+00:00",
+  "chunks": [
+    {
+      "file": "ECBDFR_realtime_part001.zip",
+      "first_selected_vintage": "2021-03-11",
+      "last_selected_vintage": "2022-12-22",
+      "sha256": "d185c5d29f828677c3dbbf05ef8a58e7c5b80d95b9b30016351ec53ab6273e81"
+    },
+    {
+      "file": "ECBDFR_realtime_part002.zip",
+      "first_selected_vintage": "2022-12-27",
+      "last_selected_vintage": "2024-10-25",
+      "sha256": "fbb840c59ac3a3cb0f85db578cdf4761ede9965eeba513b2ade4571c0816d919"
+    },
+    {
+      "file": "ECBDFR_realtime_part003.zip",
+      "first_selected_vintage": "2024-10-28",
+      "last_selected_vintage": "2026-08-24",
+      "sha256": "6fa2466a117015a4f0dfc297c1544e383e1d4a7daf8505b9782581ad4152eedd"
+    },
+    {
+      "file": "ECBDFR_realtime_part004.zip",
+      "first_selected_vintage": "2026-08-25",
+      "last_selected_vintage": "2026-11-13",
+      "sha256": "da8633ccb35a874411dc3d39bdba96078065ed7ad464e2aaddaa05c4493119e5"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

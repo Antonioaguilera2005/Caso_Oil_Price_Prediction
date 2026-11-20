@@ -1,0 +1,24 @@
+{
+  "jobs": 105,
+  "physical_neural_fits": 228,
+  "branches_verified": 114,
+  "maximum_prediction_difference": 0.0,
+  "sum_fit_seconds": 1128.1318664000137,
+  "invocation_seconds": 653.2843940999592,
+  "test_evaluated": false,
+  "selected_condition": {
+    "variant": "levels",
+    "trial": "l2_001",
+    "score": 0.9136180276317872,
+    "score_std": 0.06434126366229038,
+    "branches": 1,
+    "parameters": 4365.666666666667
+  },
+  "planned_campaign_jobs": 93,
+  "matched_control_jobs": 12,
+  "matched_control_changed_selection": false,
+  "training_code_hashes_verified": true,
+  "metrics_recomputed_from_predictions": true,
+  "models_trained_by_report": 0,
+  "report_sha256": "551e5332506b8ccdf53ff4a5097e2ffe35fa8db5bfc96497adafaa8db1c4804d"
+}

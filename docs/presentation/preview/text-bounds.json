@@ -1,0 +1,702 @@
+﻿[
+    {
+        "slide":  1,
+        "name":  "PRESENTACION_3",
+        "text":  "CASO 2 · APRENDIZAJE AUTOMÁTICO",
+        "boxHeight":  25.2,
+        "boundHeight":  19.92,
+        "boxWidth":  633.6,
+        "boundWidth":  302.27,
+        "overflow":  false
+    },
+    {
+        "slide":  1,
+        "name":  "PRESENTACION_4",
+        "text":  "Predicción del precio\rdel petróleo",
+        "boxHeight":  118.8,
+        "boundHeight":  116.83,
+        "boxWidth":  694.8,
+        "boundWidth":  446.88,
+        "overflow":  false
+    },
+    {
+        "slide":  1,
+        "name":  "PRESENTACION_5",
+        "text":  "RNN con señales\rBrent a 5, 63 y 252 días",
+        "boxHeight":  68.4,
+        "boundHeight":  67.42,
+        "boxWidth":  640.8,
+        "boundWidth":  261.38,
+        "overflow":  false
+    },
+    {
+        "slide":  1,
+        "name":  "PRESENTACION_6",
+        "text":  "Antonio Aguilera\r20 de noviembre de 2026",
+        "boxHeight":  46.8,
+        "boundHeight":  46.61,
+        "boxWidth":  583.2,
+        "boundWidth":  185.88,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_1",
+        "text":  "CASO 2 · REDES RECURRENTES",
+        "boxHeight":  19.44,
+        "boundHeight":  13.7,
+        "boxWidth":  343.44,
+        "boundWidth":  178.37,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_2",
+        "text":  "Una RNN compacta para tres horizontes",
+        "boxHeight":  38.16,
+        "boundHeight":  34.86,
+        "boxWidth":  874.8,
+        "boundWidth":  543.75,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_4",
+        "text":  "Datos, partición y arquitectura · RNN con señales · semilla 42",
+        "boxHeight":  15.84,
+        "boundHeight":  11.83,
+        "boxWidth":  792,
+        "boundWidth":  261.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_5",
+        "text":  "1 / 5",
+        "boxHeight":  21.6,
+        "boundHeight":  13.7,
+        "boxWidth":  50.4,
+        "boundWidth":  24.25,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_7",
+        "text":  "Objetivo: anticipar el Brent y contrastar la previsión con mantener el último precio conocido.",
+        "boxHeight":  21.6,
+        "boundHeight":  21.16,
+        "boxWidth":  853.2,
+        "boundWidth":  695.25,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_9",
+        "text":  "ENTRENAMIENTO",
+        "boxHeight":  15.84,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  103.25,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_10",
+        "text":  "Hasta 2017",
+        "boxHeight":  30.24,
+        "boundHeight":  27.38,
+        "boxWidth":  259.2,
+        "boundWidth":  121.25,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_11",
+        "text":  "Pesos y escalador",
+        "boxHeight":  13.68,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  97.13,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_13",
+        "text":  "VALIDACIÓN",
+        "boxHeight":  15.84,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  74.63,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_14",
+        "text":  "2018–2022",
+        "boxHeight":  30.24,
+        "boundHeight":  27.38,
+        "boxWidth":  259.2,
+        "boundWidth":  116.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_15",
+        "text":  "Selección de época",
+        "boxHeight":  13.68,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  103.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_17",
+        "text":  "EVALUACIÓN HISTÓRICA",
+        "boxHeight":  15.84,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  145.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_18",
+        "text":  "2023–2024",
+        "boxHeight":  30.24,
+        "boundHeight":  27.38,
+        "boxWidth":  259.2,
+        "boundWidth":  116.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_19",
+        "text":  "Contraste con precios reales",
+        "boxHeight":  13.68,
+        "boundHeight":  14.32,
+        "boxWidth":  259.2,
+        "boundWidth":  149.63,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_20",
+        "text":  "DATOS Y SEÑALES",
+        "boxHeight":  20.16,
+        "boundHeight":  16.19,
+        "boxWidth":  410.4,
+        "boundWidth":  124.58,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_21",
+        "text":  "• Siete variables: Brent, WTI, VIX, oro, cobre, dólar y futuro.\r• 16 señales de cambios, volatilidad, medias y base spot/futuro.\r• Escalador de entrenamiento; objetivo sin imputar.",
+        "boxHeight":  131.04,
+        "boundHeight":  120.04,
+        "boxWidth":  421.2,
+        "boundWidth":  389,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_22",
+        "text":  "ARQUITECTURA ELEGIDA",
+        "boxHeight":  20.16,
+        "boundHeight":  16.19,
+        "boxWidth":  424.8,
+        "boundWidth":  168.52,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_24",
+        "text":  "60 × 16",
+        "boxHeight":  25.92,
+        "boundHeight":  23.65,
+        "boxWidth":  120.96,
+        "boundWidth":  69.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_25",
+        "text":  "Entrada temporal",
+        "boxHeight":  14.4,
+        "boundHeight":  14.32,
+        "boxWidth":  125.28,
+        "boundWidth":  91.5,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_27",
+        "text":  "RNN · 32",
+        "boxHeight":  25.92,
+        "boundHeight":  23.65,
+        "boxWidth":  120.96,
+        "boundWidth":  84.62,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_28",
+        "text":  "Una capa tanh",
+        "boxHeight":  14.4,
+        "boundHeight":  14.32,
+        "boxWidth":  125.28,
+        "boundWidth":  78,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_30",
+        "text":  "3 cambios",
+        "boxHeight":  25.92,
+        "boundHeight":  23.65,
+        "boxWidth":  120.96,
+        "boundWidth":  98.38,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_31",
+        "text":  "5 · 63 · 252 días",
+        "boxHeight":  14.4,
+        "boundHeight":  14.32,
+        "boxWidth":  125.28,
+        "boundWidth":  87.25,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_34",
+        "text":  "Precio previsto = Brent conocido + cambio",
+        "boxHeight":  30.24,
+        "boundHeight":  21.16,
+        "boxWidth":  424.8,
+        "boundWidth":  351,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_35",
+        "text":  "1.699 parámetros · LR 0,001 · batch 128\rCPU: 6,06 s para este ajuste",
+        "boxHeight":  44.64,
+        "boundHeight":  41.41,
+        "boxWidth":  424.8,
+        "boundWidth":  255.75,
+        "overflow":  false
+    },
+    {
+        "slide":  2,
+        "name":  "PRESENTACION_36",
+        "text":  "Histórico desde 2000; entradas completas desde 2012.",
+        "boxHeight":  21.6,
+        "boundHeight":  16.19,
+        "boxWidth":  417.6,
+        "boundWidth":  322.38,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_1",
+        "text":  "CASO 2 · REDES RECURRENTES",
+        "boxHeight":  19.44,
+        "boundHeight":  13.7,
+        "boxWidth":  343.44,
+        "boundWidth":  178.37,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_2",
+        "text":  "Elegir la época también controla el sobreajuste",
+        "boxHeight":  38.16,
+        "boundHeight":  34.86,
+        "boxWidth":  874.8,
+        "boundWidth":  635.5,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_4",
+        "text":  "Entrenamiento y generalización · RNN con señales · semilla 42",
+        "boxHeight":  15.84,
+        "boundHeight":  11.83,
+        "boxWidth":  792,
+        "boundWidth":  268.25,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_5",
+        "text":  "2 / 5",
+        "boxHeight":  21.6,
+        "boundHeight":  13.7,
+        "boxWidth":  50.4,
+        "boundWidth":  24.25,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_6",
+        "text":  "CURVA DE APRENDIZAJE",
+        "boxHeight":  19.44,
+        "boundHeight":  16.19,
+        "boxWidth":  410.4,
+        "boundWidth":  164.47,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_7",
+        "text":  "VALIDACIÓN FRENTE A TEST HISTÓRICO",
+        "boxHeight":  19.44,
+        "boundHeight":  16.19,
+        "boxWidth":  417.6,
+        "boundWidth":  263.95,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_11",
+        "text":  "Checkpoint: época 17 de 27 ejecutadas",
+        "boxHeight":  21.6,
+        "boundHeight":  22.41,
+        "boxWidth":  403.2,
+        "boundWidth":  340,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_12",
+        "text":  "Early stopping, paciencia 10. El score empeoró un 2,7 % tras la época elegida.",
+        "boxHeight":  38.16,
+        "boundHeight":  36.41,
+        "boxWidth":  403.2,
+        "boundWidth":  396.5,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_14",
+        "text":  "Exploración previa: 112 intentos de Optuna",
+        "boxHeight":  21.6,
+        "boundHeight":  22.41,
+        "boxWidth":  403.2,
+        "boundWidth":  375.01,
+        "overflow":  false
+    },
+    {
+        "slide":  3,
+        "name":  "PRESENTACION_15",
+        "text":  "RNN, LSTM y GRU; 62 completos y 50 podados. Más complejidad no aseguró una ventaja.",
+        "boxHeight":  38.16,
+        "boundHeight":  36.41,
+        "boxWidth":  403.2,
+        "boundWidth":  337.63,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_1",
+        "text":  "CASO 2 · REDES RECURRENTES",
+        "boxHeight":  19.44,
+        "boundHeight":  13.7,
+        "boxWidth":  343.44,
+        "boundWidth":  178.37,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_2",
+        "text":  "Las curvas se separan al ampliar el horizonte",
+        "boxHeight":  38.16,
+        "boundHeight":  34.86,
+        "boxWidth":  874.8,
+        "boundWidth":  612.25,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_4",
+        "text":  "Precio real frente a predicho · 2023–2024 · RNN con señales · semilla 42",
+        "boxHeight":  15.84,
+        "boundHeight":  11.83,
+        "boxWidth":  792,
+        "boundWidth":  310.13,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_5",
+        "text":  "3 / 5",
+        "boxHeight":  21.6,
+        "boundHeight":  13.7,
+        "boxWidth":  50.4,
+        "boundWidth":  24.25,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_7",
+        "text":  "5 días",
+        "boxHeight":  25.2,
+        "boundHeight":  22.41,
+        "boxWidth":  270,
+        "boundWidth":  56,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_8",
+        "text":  "Mayor ajuste a las oscilaciones",
+        "boxHeight":  18.72,
+        "boundHeight":  17.43,
+        "boxWidth":  270,
+        "boundWidth":  197.13,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_9",
+        "text":  "63 días",
+        "boxHeight":  25.2,
+        "boundHeight":  22.41,
+        "boxWidth":  270,
+        "boundWidth":  66,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_10",
+        "text":  "Desviaciones más persistentes",
+        "boxHeight":  18.72,
+        "boundHeight":  17.43,
+        "boxWidth":  270,
+        "boundWidth":  196.38,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_11",
+        "text":  "252 días",
+        "boxHeight":  25.2,
+        "boundHeight":  22.41,
+        "boxWidth":  270,
+        "boundWidth":  76,
+        "overflow":  false
+    },
+    {
+        "slide":  4,
+        "name":  "PRESENTACION_12",
+        "text":  "Poca anticipación de los giros",
+        "boxHeight":  18.72,
+        "boundHeight":  17.43,
+        "boxWidth":  270,
+        "boundWidth":  188.63,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_1",
+        "text":  "CASO 2 · REDES RECURRENTES",
+        "boxHeight":  19.44,
+        "boundHeight":  13.7,
+        "boxWidth":  343.44,
+        "boundWidth":  178.37,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_2",
+        "text":  "Qué mejora y qué no mejora frente al ingenuo",
+        "boxHeight":  38.16,
+        "boundHeight":  34.86,
+        "boxWidth":  874.8,
+        "boundWidth":  618.13,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_4",
+        "text":  "Comparación y métricas guardadas · RNN con señales · semilla 42",
+        "boxHeight":  15.84,
+        "boundHeight":  11.83,
+        "boxWidth":  792,
+        "boundWidth":  285,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_5",
+        "text":  "4 / 5",
+        "boxHeight":  21.6,
+        "boundHeight":  13.7,
+        "boxWidth":  50.4,
+        "boundWidth":  24.25,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_6",
+        "text":  "Configuraciones · RMSE / ingenuo spot",
+        "boxHeight":  28.8,
+        "boundHeight":  21.16,
+        "boxWidth":  414,
+        "boundWidth":  324.25,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_8",
+        "text":  "Menos de 1 = menor RMSE.\rMisma partición y semilla; selección de configuraciones.",
+        "boxHeight":  43.2,
+        "boundHeight":  38.82,
+        "boxWidth":  399.6,
+        "boundWidth":  327.25,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_9",
+        "text":  "RNN con señales · evaluación 2023–2024",
+        "boxHeight":  28.8,
+        "boundHeight":  21.16,
+        "boxWidth":  435.6,
+        "boundWidth":  337.38,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_11",
+        "text":  "MAE y RMSE: USD/barril · MSE: (USD/barril)².",
+        "boxHeight":  26.64,
+        "boundHeight":  15.56,
+        "boxWidth":  434.88,
+        "boundWidth":  263.38,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_12",
+        "text":  "Ratio frente a futuros conocidos:\r1,080 · 1,073 · 1,081 (5 · 63 · 252 días)",
+        "boxHeight":  54,
+        "boundHeight":  44.01,
+        "boxWidth":  434.88,
+        "boundWidth":  268.5,
+        "overflow":  false
+    },
+    {
+        "slide":  5,
+        "name":  "PRESENTACION_14",
+        "text":  "5 días: 11,4 % menos RMSE que el spot. A 63 y 252 días, empate práctico.",
+        "boxHeight":  22.32,
+        "boundHeight":  19.92,
+        "boxWidth":  856.8,
+        "boundWidth":  563.18,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_1",
+        "text":  "CASO 2 · REDES RECURRENTES",
+        "boxHeight":  19.44,
+        "boundHeight":  13.7,
+        "boxWidth":  343.44,
+        "boundWidth":  178.37,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_2",
+        "text":  "Conocer los errores forma parte de la solución",
+        "boxHeight":  38.16,
+        "boundHeight":  34.86,
+        "boxWidth":  874.8,
+        "boundWidth":  630.75,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_4",
+        "text":  "Errores, límites y demostración de la app · RNN con señales · semilla 42",
+        "boxHeight":  15.84,
+        "boundHeight":  11.83,
+        "boxWidth":  792,
+        "boundWidth":  307.63,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_5",
+        "text":  "5 / 5",
+        "boxHeight":  21.6,
+        "boundHeight":  13.7,
+        "boxWidth":  50.4,
+        "boundWidth":  24.25,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_6",
+        "text":  "ERROR RELATIVO SEGÚN VOLATILIDAD EN EL ORIGEN",
+        "boxHeight":  20.16,
+        "boundHeight":  15.56,
+        "boxWidth":  439.2,
+        "boundWidth":  342.04,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_7",
+        "text":  "EL MISMO MODELO, TRES HORIZONTES",
+        "boxHeight":  20.16,
+        "boundHeight":  15.56,
+        "boxWidth":  406.8,
+        "boundWidth":  249.4,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_10",
+        "text":  "Alta volatilidad: N = 26 / 11 / 9.\rComparación descriptiva; grupos pequeños y solapados.",
+        "boxHeight":  47.52,
+        "boundHeight":  41.41,
+        "boxWidth":  439.2,
+        "boundWidth":  355.25,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_11",
+        "text":  "• CSV para incorporar datos sin reentrenar.\r• Rangos empíricos nominales del 80 %.\r• Demostración con instantánea del 13/11/2026.",
+        "boxHeight":  69.12,
+        "boundHeight":  65.4,
+        "boxWidth":  406.8,
+        "boundWidth":  300.09,
+        "overflow":  false
+    },
+    {
+        "slide":  6,
+        "name":  "PRESENTACION_13",
+        "text":  "Valor: apoyo al análisis, con una ventaja medible a cinco días y límites visibles.",
+        "boxHeight":  19.44,
+        "boundHeight":  19.92,
+        "boxWidth":  856.8,
+        "boundWidth":  609.12,
+        "overflow":  false
+    },
+    {
+        "slide":  7,
+        "name":  "PRESENTACION_4",
+        "text":  "Gracias\r¿Preguntas?",
+        "boxHeight":  126,
+        "boundHeight":  119.43,
+        "boxWidth":  640.8,
+        "boundWidth":  281.25,
+        "overflow":  false
+    }
+]

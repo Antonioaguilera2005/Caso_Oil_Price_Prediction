@@ -1,0 +1,52 @@
+{
+  "name": "regularization_20261118",
+  "source": "data/development_2022",
+  "training_end_exclusive": "2018-01-01",
+  "validation_start": "2018-01-01",
+  "development_end_exclusive": "2023-01-01",
+  "test_start": "2023-01-01",
+  "test_end_exclusive": "2025-01-01",
+  "test_evaluation_enabled": false,
+  "inner_years": 2,
+  "horizons": [5, 63, 252],
+  "architectures": ["RNN", "LSTM", "GRU"],
+  "variants": ["levels", "signals"],
+  "search_seed": 42,
+  "confirmation_seeds": [43, 44],
+  "maximum_epochs": 60,
+  "patience": 8,
+  "minimum_improvement": 0.0001,
+  "minimum_evaluation_samples": 20,
+  "workers": 2,
+  "cpu_threads_per_worker": 1,
+  "base": {
+    "hidden_size": 32, "num_layers": 1, "head_size": 0,
+    "pooling": "last", "dropout": 0.2,
+    "learning_rate": 0.001, "weight_decay": 0.0,
+    "batch_size": 128, "loss": "mse", "scheduler": false,
+    "window": 60, "target_mode": "change", "separate_horizons": false
+  },
+  "trials": {
+    "control": {},
+    "l2_0001": {"weight_decay": 0.0001},
+    "l2_001": {"weight_decay": 0.001},
+    "small16": {"hidden_size": 16},
+    "slow_lr": {"learning_rate": 0.0003},
+    "huber": {"loss": "huber"},
+    "scheduler": {"scheduler": true},
+    "returns": {"target_mode": "log_return"},
+    "window20": {"window": 20},
+    "separate_returns": {"target_mode": "log_return", "separate_horizons": true}
+  },
+  "selection_rule": "For each trial and variant, average RMSE/known-spot RMSE equally over eligible target years, then horizons, then architectures. Confirm the best two conditions plus signals/control. Rank confirmed conditions over all three seeds; differences below 0.005 favor fewer recurrent branches, then fewer parameters, then trial declaration order.",
+  "walk_forward": [
+    {"name": "2018_2019", "train_end": "2018-01-01", "validation_end": "2020-01-01"},
+    {"name": "2020_2022", "train_end": "2020-01-01", "validation_end": "2023-01-01"}
+  ],
+  "walk_forward_seed": 42,
+  "walk_forward_policy": "Check the selected condition and the common control with the same three cells; this retrospective development check does not change the selected condition and is not an independent test.",
+  "ridge_alphas": [100.0, 1000.0],
+  "ridge_input": "Last observed feature vector; alpha selected on the internal pre-training-boundary block",
+  "refit_policy": "Choose epoch only in internal data; reset weights and train all pre-boundary samples for that fixed epoch count; never evaluate the scored block inside epoch selection or refitting.",
+  "budget": "60 fixed-search jobs, 20 conditions each compared on all 3 cells; then at most 18 confirmation jobs and 12 walk-forward jobs; separate-horizon jobs contain 3 branches and each branch has selection and refit phases. No further search rounds based on results."
+}

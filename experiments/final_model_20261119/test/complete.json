@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-11-19T16:30:44.431144+00:00",
+  "frozen_model_sha256": "84dd30c52045fb92f6377e493da869ce5f4ae6798225c5053a33ba94d71fc162",
+  "source_sha256": {
+    "data\\processed\\informacion_disponible.csv": "e9b31ee880d0203bf54541c74c86531d9935ba5e9227f64ebf0f6f1998059b6b",
+    "data\\tables\\alfred_DCOILBRENTEU_realtime.csv": "f5cab9dca2f03e0f6bd1b10cdf0d9c5d9b5eb7b06602e12757021321c5d20813"
+  },
+  "test_evaluated": true,
+  "retrained_on_test": false,
+  "files": {
+    "predictions.csv": "a78745bde8ba5c658fa5ac94bbf471369e38b97b0b12f4a2c14b8bca9c15ff3a",
+    "metrics.csv": "81de8afc9c37b022615a55f1efe6bef2d8e6f1d671b1c8794f783b69cd4bf4af",
+    "sample_counts.csv": "c843c6554886c13252510a1406b4ab3af9ebb308d8604023ef0e5c0f79a597be",
+    "opened.json": "7e1197654c5df0c11a4317b24d652e5f0744b876c03deba5d1efbedde12aa0bd"
+  }
+}

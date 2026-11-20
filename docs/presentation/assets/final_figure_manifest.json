@@ -1,0 +1,480 @@
+{
+  "model_id": "rnn-signals-seed42-fixed2017",
+  "no_training_or_new_evaluation": true,
+  "template": "C:\\Users\\anton\\Downloads\\PPT_Template (4).pptx",
+  "palette": {
+    "actual": "#16364F",
+    "rnn_uax_blue": "#0060AF",
+    "naive": "#B07D32",
+    "validation": "#83B5DE"
+  },
+  "figures": [
+    {
+      "name": "final_test_curves",
+      "width_inches": 11.5,
+      "height_inches": 3.65,
+      "png": {
+        "path": "docs/presentation/assets/final_test_curves.png",
+        "sha256": "0166bba80b850ff9f77663747e401c86709db18c406ca964e0ad5da452f0fce2"
+      },
+      "svg": {
+        "path": "docs/presentation/assets/final_test_curves.svg",
+        "sha256": "7a449fcc7b79b679f9f08d8ec5fd91e9bb6cc6ef46901417ba30362ba2c569a0"
+      }
+    },
+    {
+      "name": "final_validation_test",
+      "width_inches": 5.4,
+      "height_inches": 2.7,
+      "png": {
+        "path": "docs/presentation/assets/final_validation_test.png",
+        "sha256": "ba79796e6db0edb1979c877e3784f01ded3eef4b4258f4e8e660bdb8fd2bad39"
+      },
+      "svg": {
+        "path": "docs/presentation/assets/final_validation_test.svg",
+        "sha256": "4339997e6b1f1c4bfba3018fbd3b9da5123728fb2f1ce4210856b2ec3b505566"
+      }
+    },
+    {
+      "name": "final_training_curve",
+      "width_inches": 5.1,
+      "height_inches": 2.7,
+      "png": {
+        "path": "docs/presentation/assets/final_training_curve.png",
+        "sha256": "2c482fd360c95c623535c2313e755de1d63a247466c792778c8457df473f2f23"
+      },
+      "svg": {
+        "path": "docs/presentation/assets/final_training_curve.svg",
+        "sha256": "7471f78aeef863ca007ee4d5e99a139d0ec800800b922e23a98c0d2c84b31970"
+      }
+    },
+    {
+      "name": "final_error_regimes",
+      "width_inches": 5.6,
+      "height_inches": 3.1,
+      "png": {
+        "path": "docs/presentation/assets/final_error_regimes.png",
+        "sha256": "43683a9b6cea5d38434c2e9061e701eb3ec7354f7c03c9532c32d5d74dc80ea7"
+      },
+      "svg": {
+        "path": "docs/presentation/assets/final_error_regimes.svg",
+        "sha256": "ca0687f2794773d85d0a6f5e98da9b104b2113d5a1a0c6c7e38c7e8391024d50"
+      }
+    }
+  ],
+  "test_metrics": [
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 5,
+      "group": "all",
+      "n": 499,
+      "mae": 3.1265803223983935,
+      "mse": 15.145292275394464,
+      "rmse": 3.891695295805475,
+      "r2": 0.5584323595304492,
+      "relative_rmse": 0.88558536033891,
+      "relative_rmse_vs_future": 1.0798442185625776,
+      "naive_rmse": 4.394489193358096,
+      "future_rmse": 3.603941410165497,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-12-18",
+      "first_target": "2023-01-09",
+      "last_target": "2024-12-25",
+      "interval_coverage": 0.8056112224448898,
+      "interval_mean_width": 10.227478938102706
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 63,
+      "group": "all",
+      "n": 441,
+      "mae": 7.591644953817231,
+      "mse": 83.47331435324854,
+      "rmse": 9.13637315094171,
+      "r2": -1.27410811441257,
+      "relative_rmse": 0.999624853014367,
+      "relative_rmse_vs_future": 1.0734163025079182,
+      "naive_rmse": 9.139801920081311,
+      "future_rmse": 8.51149095611422,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-09-27",
+      "first_target": "2023-03-30",
+      "last_target": "2024-12-25",
+      "interval_coverage": 0.9433106575963719,
+      "interval_mean_width": 32.77087226867675
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 252,
+      "group": "all",
+      "n": 258,
+      "mae": 7.759421526108141,
+      "mse": 89.66782268616376,
+      "rmse": 9.469309514751524,
+      "r2": -2.1297251669521455,
+      "relative_rmse": 1.0046029717657894,
+      "relative_rmse_vs_future": 1.0807493472229996,
+      "naive_rmse": 9.42592226071891,
+      "future_rmse": 8.761799892901204,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-01-08",
+      "first_target": "2023-12-20",
+      "last_target": "2024-12-25",
+      "interval_coverage": 1.0,
+      "interval_mean_width": 57.719697151184064
+    }
+  ],
+  "validation_metrics": [
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "subset": "validation",
+      "horizon": 5,
+      "n": 1263,
+      "mae": 3.4668146338587174,
+      "mse": 24.510434321981624,
+      "rmse": 4.950801381794832,
+      "r2": 0.9452421734164526,
+      "naive_rmse": 5.702604195978681,
+      "naive_r2": 0.9273489904364723,
+      "future_rmse": 4.804587678098875,
+      "relative_rmse": 0.8681650017523573,
+      "relative_rmse_vs_future": 1.0304321022930758
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "subset": "validation",
+      "horizon": 63,
+      "n": 1205,
+      "mae": 10.599565221224708,
+      "mse": 222.1615394602864,
+      "rmse": 14.905084349318068,
+      "r2": 0.5257119937731415,
+      "naive_rmse": 15.986912627292899,
+      "naive_r2": 0.45436468778873307,
+      "future_rmse": 14.830218509248427,
+      "relative_rmse": 0.932330381531708,
+      "relative_rmse_vs_future": 1.0050481953467478
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "subset": "validation",
+      "horizon": 252,
+      "n": 1020,
+      "mae": 19.072450553583053,
+      "mse": 509.7637890428195,
+      "rmse": 22.577949177080267,
+      "r2": 0.061534517320400384,
+      "naive_rmse": 27.57739367777208,
+      "naive_r2": -0.40008937287171675,
+      "future_rmse": 26.93333507464145,
+      "relative_rmse": 0.8187122191782227,
+      "relative_rmse_vs_future": 0.8382901380207491
+    }
+  ],
+  "training_diagnostics": {
+    "selected_epoch": 17,
+    "epochs_run": 27,
+    "fit_mse_at_selected": 0.730115624471364,
+    "inner_mse_at_selected": 1.597184430126428,
+    "fit_mse_last": 0.6484013922420205,
+    "inner_mse_last": 1.657778900865881,
+    "inner_score_selected": 0.8730692008207627,
+    "inner_score_last": 0.8966049912832247,
+    "inner_deterioration_pct": 2.695753147669877,
+    "overfit_signal": true,
+    "fit_seconds": 6.057857399922796,
+    "parameters": 1699,
+    "selection_source": "validation_2018_2022",
+    "test_evaluated": false
+  },
+  "error_summaries": [
+    {
+      "horizon": 5,
+      "n": 499,
+      "mean_signed_error": -0.3093240795423646,
+      "first_target": "2023-01-09",
+      "last_target": "2024-12-25",
+      "target_year_counts": {
+        "2023": 247,
+        "2024": 252
+      },
+      "worst_errors": [
+        {
+          "origin": "2023-03-10",
+          "target_date": "2023-03-17",
+          "actual": 71.03,
+          "prediction": 83.33115135192871,
+          "signed_error": 12.30115135192871
+        },
+        {
+          "origin": "2023-03-27",
+          "target_date": "2023-04-03",
+          "actual": 85.81,
+          "prediction": 73.67072765350342,
+          "signed_error": -12.139272346496583
+        },
+        {
+          "origin": "2023-03-13",
+          "target_date": "2023-03-20",
+          "actual": 72.42,
+          "prediction": 83.48131714820862,
+          "signed_error": 11.061317148208616
+        }
+      ]
+    },
+    {
+      "horizon": 63,
+      "n": 441,
+      "mean_signed_error": 1.2025565391300828,
+      "first_target": "2023-03-30",
+      "last_target": "2024-12-25",
+      "target_year_counts": {
+        "2023": 189,
+        "2024": 252
+      },
+      "worst_errors": [
+        {
+          "origin": "2023-06-30",
+          "target_date": "2023-09-27",
+          "actual": 97.1,
+          "prediction": 71.50340686798096,
+          "signed_error": -25.596593132019038
+        },
+        {
+          "origin": "2023-07-03",
+          "target_date": "2023-09-28",
+          "actual": 96.64,
+          "prediction": 73.11774401426315,
+          "signed_error": -23.522255985736848
+        },
+        {
+          "origin": "2023-07-04",
+          "target_date": "2023-09-29",
+          "actual": 95.86,
+          "prediction": 72.97279797554016,
+          "signed_error": -22.88720202445984
+        }
+      ]
+    },
+    {
+      "horizon": 252,
+      "n": 258,
+      "mean_signed_error": -0.4414969398092856,
+      "first_target": "2023-12-20",
+      "last_target": "2024-12-25",
+      "target_year_counts": {
+        "2023": 6,
+        "2024": 252
+      },
+      "worst_errors": [
+        {
+          "origin": "2023-07-07",
+          "target_date": "2024-06-25",
+          "actual": 86.81,
+          "prediction": 65.45416210174561,
+          "signed_error": -21.355837898254393
+        },
+        {
+          "origin": "2023-10-02",
+          "target_date": "2024-09-18",
+          "actual": 74.52,
+          "prediction": 95.12851978302002,
+          "signed_error": 20.60851978302003
+        },
+        {
+          "origin": "2023-07-06",
+          "target_date": "2024-06-24",
+          "actual": 86.75,
+          "prediction": 66.49462268829346,
+          "signed_error": -20.25537731170654
+        }
+      ]
+    }
+  ],
+  "origin_regime_metrics": [
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 5,
+      "group": "origin_high_volatility",
+      "n": 26,
+      "mae": 2.2367137105533716,
+      "mse": 7.318931539142986,
+      "rmse": 2.705352387239597,
+      "r2": 0.7722059563316804,
+      "relative_rmse": 1.0445513761246208,
+      "relative_rmse_vs_future": 0.9808954560824124,
+      "naive_rmse": 2.5899658447406355,
+      "future_rmse": 2.7580435513938193,
+      "first_origin": "2023-04-05",
+      "last_origin": "2024-11-06",
+      "first_target": "2023-04-12",
+      "last_target": "2024-11-13",
+      "interval_coverage": 0.9615384615384616,
+      "interval_mean_width": 10.227478938102706
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 5,
+      "group": "origin_usual",
+      "n": 473,
+      "mae": 3.1754947661784585,
+      "mse": 15.575493922630276,
+      "rmse": 3.9465800286615593,
+      "r2": 0.5399051305757843,
+      "relative_rmse": 0.8823865153703563,
+      "relative_rmse_vs_future": 1.0828119508436225,
+      "naive_rmse": 4.472620512571066,
+      "future_rmse": 3.644751081281256,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-12-18",
+      "first_target": "2023-01-09",
+      "last_target": "2024-12-25",
+      "interval_coverage": 0.7970401691331924,
+      "interval_mean_width": 10.227478938102706
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 63,
+      "group": "origin_high_volatility",
+      "n": 11,
+      "mae": 11.60177612478083,
+      "mse": 136.0713538181192,
+      "rmse": 11.664962658239382,
+      "r2": -35.21942577347716,
+      "relative_rmse": 1.4309586909505259,
+      "relative_rmse_vs_future": 1.5706628769776918,
+      "naive_rmse": 8.151851434992045,
+      "future_rmse": 7.426776827300706,
+      "first_origin": "2023-04-05",
+      "last_origin": "2023-04-19",
+      "first_target": "2023-07-03",
+      "last_target": "2023-07-17",
+      "interval_coverage": 1.0,
+      "interval_mean_width": 32.77087226867675
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 63,
+      "group": "origin_usual",
+      "n": 430,
+      "mae": 7.489060202932117,
+      "mse": 82.12778311112393,
+      "rmse": 9.062438033505329,
+      "r2": -1.2053457903409508,
+      "relative_rmse": 0.98895204249644,
+      "relative_rmse_vs_future": 1.0614946357355137,
+      "naive_rmse": 9.163677958163428,
+      "future_rmse": 8.537431776304672,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-09-27",
+      "first_target": "2023-03-30",
+      "last_target": "2024-12-25",
+      "interval_coverage": 0.9418604651162791,
+      "interval_mean_width": 32.77087226867674
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 252,
+      "group": "origin_high_volatility",
+      "n": 9,
+      "mae": 5.796108900705976,
+      "mse": 39.32106964582428,
+      "rmse": 6.270651453064847,
+      "r2": -4.45524692830291,
+      "relative_rmse": 2.039561316012453,
+      "relative_rmse_vs_future": 1.7005875129740144,
+      "naive_rmse": 3.0745098977090817,
+      "future_rmse": 3.6873441708969343,
+      "first_origin": "2023-04-05",
+      "last_origin": "2023-04-19",
+      "first_target": "2024-03-22",
+      "last_target": "2024-04-05",
+      "interval_coverage": 1.0,
+      "interval_mean_width": 57.71969715118408
+    },
+    {
+      "architecture": "RNN",
+      "variant": "signals",
+      "seed": 42,
+      "horizon": 252,
+      "group": "origin_usual",
+      "n": 249,
+      "mae": 7.830384633050387,
+      "mse": 91.4875848442483,
+      "rmse": 9.564914262252866,
+      "r2": -2.3261170510708644,
+      "relative_rmse": 0.9987446079709269,
+      "relative_rmse_vs_future": 1.0757796309837868,
+      "naive_rmse": 9.57693707271689,
+      "future_rmse": 8.891146464174891,
+      "first_origin": "2023-01-02",
+      "last_origin": "2024-01-08",
+      "first_target": "2023-12-20",
+      "last_target": "2024-12-25",
+      "interval_coverage": 1.0,
+      "interval_mean_width": 57.71969715118406
+    }
+  ],
+  "sources": {
+    "delivery_config": {
+      "path": "config/delivery_model.json",
+      "sha256": "26020fbb38b2b9901a4c4639eb20bcdda5109665f02e03ee8d1ae16f0a44875a"
+    },
+    "checkpoint": {
+      "path": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/model.pt",
+      "sha256": "396a44bd61bab1e2928614ea4f68f04559c3fb27ba5c85cd64f01cf88c59c4c4"
+    },
+    "test_predictions": {
+      "path": "experiments/recovered_fixed_test_20261120/predictions.csv",
+      "sha256": "6ef8986e9cbf2b1b7702332eef10c85964e42b3ae4efacaa43d614f20262ca25"
+    },
+    "test_metrics": {
+      "path": "experiments/recovered_fixed_test_20261120/metrics.csv",
+      "sha256": "1304a616e911394f7b5958738940c4b9b27e2abd6387d91e9175191118c1f9dc"
+    },
+    "validation_metrics": {
+      "path": "experiments/recovered_fixed_test_20261120/validation_metrics.csv",
+      "sha256": "b948c8513b66d50223c3d04a0587bacc1f522d288d4a035bb34eabdbecb0972c"
+    },
+    "training_history": {
+      "path": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/curve.csv",
+      "sha256": "8d3b53994e8417192fe5cab7c8ec3c9a24f9545a75c95a792541bb9098b4380a"
+    },
+    "training_diagnostics": {
+      "path": "experiments/fixed_split_2017_2022/RNN/signals/seed_42/diagnostics.json",
+      "sha256": "4e36a2f654e82d8fd7922af9da326c20eb17044f750d8ca83c1c0dd36309f9e1"
+    }
+  },
+  "interpretation": [
+    "At 5 days, the model improves RMSE against known spot by 11.44%, but is worse than the known-futures reference.",
+    "At 63 and 252 days, the test performance is approximately the spot naive baseline; negative R² remains visible in the saved metrics.",
+    "Validation 2018–2022 selected epoch 17; later validation loss increases while training loss falls. Early stopping limits the observed fitting, without guaranteeing unseen-period generalization.",
+    "All curves use observed target dates. No missing targets are imputed or smoothed.",
+    "At 252 days, six target observations lie in 2023 and 252 in 2024. All 258 remain in the charts and metrics; overlapping horizons are not independent tests.",
+    "The error sign is predicted minus observed. No error is attributed to a historical event without separate supporting evidence.",
+    "High-volatility groups use origin-only 21-weekday known Brent log-change volatility above a 90th-percentile pre-2018 threshold. Their samples contain 26, 11 and 9 overlapping observations, so comparisons are descriptive rather than strong statistical evidence.",
+    "High origin volatility does not imply greater absolute error at every horizon: the figure compares RMSE relative to each same-group spot naive baseline."
+  ]
+}

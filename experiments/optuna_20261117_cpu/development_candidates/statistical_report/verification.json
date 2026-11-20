@@ -1,0 +1,9 @@
+{
+  "predictions_sha256": "36863652d730971750e06a81075e32491cf2975f465a57f366a5d4fd3acc953f",
+  "metrics_definition": "R2 = 1 - SSE/SST; MAE, MSE and RMSE on original prices",
+  "pooled_groups": 9,
+  "year_groups": 36,
+  "test_evaluated": false,
+  "calibration_evaluated": false,
+  "models_trained": 0
+}

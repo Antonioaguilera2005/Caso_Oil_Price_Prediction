@@ -1,0 +1,10 @@
+{
+  "additional_jobs": 12,
+  "physical_neural_fits": 24,
+  "branches_verified": 12,
+  "sum_fit_seconds": 176.01998149999417,
+  "invocation_seconds": 105.64485719997901,
+  "maximum_prediction_difference": 0.0,
+  "candidate_selection_changed": false,
+  "test_evaluated": false
+}

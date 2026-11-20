@@ -1,0 +1,30 @@
+{
+  "name": "brent_pilot_v1",
+  "start": "2011-04-06",
+  "development_end_exclusive": "2022-01-01",
+  "calibration_start": "2022-01-01",
+  "calibration_end_exclusive": "2024-01-01",
+  "test_start": "2024-01-01",
+  "window": 60,
+  "horizons": [5, 63, 252],
+  "validation_folds": [
+    {"name": "2018_2019", "train_end_exclusive": "2018-01-01", "validation_end_exclusive": "2020-01-01"},
+    {"name": "2020_2021", "train_end_exclusive": "2020-01-01", "validation_end_exclusive": "2022-01-01"}
+  ],
+  "feature_columns": [
+    "brent_conocido", "wti_conocido", "vix_conocido",
+    "brent_fut_Open_conocido", "brent_fut_High_conocido", "brent_fut_Low_conocido",
+    "brent_fut_Close_conocido", "brent_fut_Volume_conocido",
+    "wti_fut_Open_conocido", "wti_fut_High_conocido", "wti_fut_Low_conocido",
+    "wti_fut_Close_conocido", "wti_fut_Volume_conocido",
+    "cobre_conocido", "oro_conocido", "indice_dolar_conocido"
+  ],
+  "target": "Brent spot observado en Date + horizonte de lunes a viernes",
+  "training_target_vintage": "Última versión publicada antes del inicio de validación",
+  "validation_target_vintage": "Última versión publicada antes del fin de validación",
+  "naive": "Último Brent conocido en la fecha de origen, no el cierre aún no publicado",
+  "target_imputation": false,
+  "scaler": "Mediana e IQR del entrenamiento de cada fold; log1p de los volúmenes",
+  "label_boundary_rule": "Todos los destinos y su publicación deben pertenecer al bloque correspondiente",
+  "test_evaluation_enabled": false
+}

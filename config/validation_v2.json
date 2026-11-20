@@ -1,0 +1,11 @@
+{
+  "name": "validation_v2_inner_selection",
+  "origin_years": [2018, 2019, 2020, 2021],
+  "inner_fraction": 0.15,
+  "inner_min_days": 312,
+  "minimum_evaluation_samples": 20,
+  "patience": 10,
+  "selection_metric": "mean_inner_relative_rmse",
+  "label_policy": "per_horizon_mask",
+  "development_end_exclusive": "2022-01-01"
+}

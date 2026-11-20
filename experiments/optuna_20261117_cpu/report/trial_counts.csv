@@ -1,0 +1,4 @@
+architecture,complete_trials,pruned_trials,failed_trials
+RNN,25,15,0
+LSTM,17,23,0
+GRU,20,12,0

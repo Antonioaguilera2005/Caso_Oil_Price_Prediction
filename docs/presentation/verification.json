@@ -1,0 +1,27 @@
+{
+  "pptx": "Prediccion_Petroleo_RNN_UAX.pptx",
+  "template": "C:\\Users\\anton\\Downloads\\PPT_Template (4).pptx",
+  "template_sha256": "a2cc90ebcea809b84aa87806e1cc871690da4334bdcf8e55331140b851823271",
+  "slides": 7,
+  "content_slides": 5,
+  "model_id": "rnn-signals-seed42-fixed2017",
+  "source_files": {
+    "experiments\\fixed_split_2017_2022\\RNN\\signals\\seed_42\\model.pt": "396a44bd61bab1e2928614ea4f68f04559c3fb27ba5c85cd64f01cf88c59c4c4",
+    "experiments\\recovered_fixed_test_20261120\\metrics.csv": "1304a616e911394f7b5958738940c4b9b27e2abd6387d91e9175191118c1f9dc",
+    "experiments\\recovered_fixed_test_20261120\\predictions.csv": "6ef8986e9cbf2b1b7702332eef10c85964e42b3ae4efacaa43d614f20262ca25"
+  },
+  "source_files_unchanged": true,
+  "editable_text_and_tables": true,
+  "generated_shapes_within_slide": true,
+  "figures_manifest": "assets/final_figure_manifest.json",
+  "rendered_with_powerpoint": true,
+  "pdf_pages": 7,
+  "visually_reviewed_slides": 7,
+  "powerpoint_text_overflows": 0,
+  "original_template_unchanged": true,
+  "pptx_sha256": "c31c4154dddf99988e527f20ee2ed96532e7bdda688db6f7e9a61f63c6ea8418",
+  "pdf_sha256": "51d42ad3a6ebbeb48f6e829634187ecc1ed94a06c3953e1fbe4dcfc7d1c3b4ca",
+  "speaker_notes": false,
+  "speaker_note_pages_with_text": 0,
+  "appearance_unchanged_after_note_removal": true
+}

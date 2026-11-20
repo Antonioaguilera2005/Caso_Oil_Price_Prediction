@@ -1,0 +1,10 @@
+{
+  "trials": 32,
+  "complete": 20,
+  "pruned": 12,
+  "best_trial": 24,
+  "best_score": 0.9410831483883304,
+  "seconds_session": 1824.3564539999934,
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}

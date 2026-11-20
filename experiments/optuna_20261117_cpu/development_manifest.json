@@ -1,0 +1,32 @@
+{
+  "protocol_sha256": "4dd1da78af6542979e25013394aa9dce1b9f1dd66772b2cb9a54b4374a38f344",
+  "input_source_sha256": "e9b31ee880d0203bf54541c74c86531d9935ba5e9227f64ebf0f6f1998059b6b",
+  "target_source_sha256": "f5cab9dca2f03e0f6bd1b10cdf0d9c5d9b5eb7b06602e12757021321c5d20813",
+  "first_input_date": "2011-04-06",
+  "last_input_date": "2021-12-31",
+  "input_rows": 2803,
+  "features": [
+    "brent_conocido",
+    "wti_conocido",
+    "vix_conocido",
+    "brent_fut_Open_conocido",
+    "brent_fut_High_conocido",
+    "brent_fut_Low_conocido",
+    "brent_fut_Close_conocido",
+    "brent_fut_Volume_conocido",
+    "wti_fut_Open_conocido",
+    "wti_fut_High_conocido",
+    "wti_fut_Low_conocido",
+    "wti_fut_Close_conocido",
+    "wti_fut_Volume_conocido",
+    "cobre_conocido",
+    "oro_conocido",
+    "indice_dolar_conocido"
+  ],
+  "calibration_exported": false,
+  "test_exported": false,
+  "files": {
+    "development_inputs.csv": "40c8e8e36005a759f0268d09fbe469b4602dfc0f2be8bf6bcd98c02185c932e8",
+    "development_target_vintages.csv": "864e589a155d56a84ab1800b448048ab3a3094dd71420ca3d913d614972c0284"
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "year": 2018,
+    "fit_before": "2016-10-20",
+    "inner_before": "2018-01-01",
+    "outer_before": "2019-01-01",
+    "labels_before": "2022-01-01",
+    "fit_samples": 1380,
+    "inner_samples": 303,
+    "outer_samples": 261,
+    "fit_labels_by_horizon": [
+      1337,
+      1281,
+      1103
+    ],
+    "inner_labels_by_horizon": [
+      299,
+      244,
+      56
+    ],
+    "outer_labels_by_horizon": [
+      252,
+      252,
+      254
+    ]
+  },
+  {
+    "year": 2019,
+    "fit_before": "2017-10-20",
+    "inner_before": "2019-01-01",
+    "outer_before": "2020-01-01",
+    "labels_before": "2022-01-01",
+    "fit_samples": 1640,
+    "inner_samples": 305,
+    "outer_samples": 261,
+    "fit_labels_by_horizon": [
+      1593,
+      1537,
+      1359
+    ],
+    "inner_labels_by_horizon": [
+      298,
+      243,
+      58
+    ],
+    "outer_labels_by_horizon": [
+      257,
+      257,
+      254
+    ]
+  },
+  {
+    "year": 2020,
+    "fit_before": "2018-09-10",
+    "inner_before": "2020-01-01",
+    "outer_before": "2021-01-01",
+    "labels_before": "2022-01-01",
+    "fit_samples": 1870,
+    "inner_samples": 333,
+    "outer_samples": 262,
+    "fit_labels_by_horizon": [
+      1816,
+      1760,
+      1582
+    ],
+    "inner_labels_by_horizon": [
+      326,
+      268,
+      86
+    ],
+    "outer_labels_by_horizon": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "year": 2021,
+    "fit_before": "2019-07-17",
+    "inner_before": "2021-01-01",
+    "outer_before": "2022-01-01",
+    "labels_before": "2022-01-01",
+    "fit_samples": 2088,
+    "inner_samples": 373,
+    "outer_samples": 252,
+    "fit_labels_by_horizon": [
+      2029,
+      1973,
+      1795
+    ],
+    "inner_labels_by_horizon": [
+      366,
+      308,
+      125
+    ],
+    "outer_labels_by_horizon": [
+      247,
+      189,
+      5
+    ]
+  }
+]

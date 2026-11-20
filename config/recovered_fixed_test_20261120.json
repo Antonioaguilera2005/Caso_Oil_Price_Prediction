@@ -1,0 +1,21 @@
+{
+  "name": "recovered_fixed_test_20261120",
+  "source": "experiments/fixed_split_2017_2022",
+  "source_figure": "experiments/fixed_split_2017_2022/report/01_comparacion_completa.png",
+  "architectures": ["RNN", "LSTM", "GRU"],
+  "variants": ["levels", "signals"],
+  "seed": 42,
+  "window": 60,
+  "horizons": [5, 63, 252],
+  "training_end_exclusive": "2018-01-01",
+  "validation_start": "2018-01-01",
+  "validation_end_exclusive": "2023-01-01",
+  "test_start": "2023-01-01",
+  "test_end_exclusive": "2025-01-01",
+  "training_policy": "No training, epoch selection, ensemble, blending or scaling fit. Evaluate exactly the six saved seed42 checkpoints shown in the screenshot; keep their original pre-2018 scalers and target scales.",
+  "comparison_policy": "All six use exactly the same origin/target pairs per horizon. Compare known published Brent spot and known Brent futures close. Do not select or modify a model using these results.",
+  "target_policy": "Both origin and destination in test; horizons count Monday-Friday including holidays; use actual published Brent target as of the exclusive test end, never fill missing target prices.",
+  "interval_policy": "Symmetric empirical 80% absolute-residual quantile from the saved 2018-2022 validation forecasts of each checkpoint; fixed before this evaluation, without a coverage guarantee because validation selected epochs and targets overlap.",
+  "regime_policy": "Origin-only 21-weekday known Brent log-change volatility, with 90th percentile threshold estimated before 2018; no exclusions based on realized errors or later events.",
+  "prior_period_evaluation": "The 2023-2024 block was already evaluated for another model pipeline. This execution compares the six recovered frozen checkpoints on that same historical block; it is not the first use of that block."
+}

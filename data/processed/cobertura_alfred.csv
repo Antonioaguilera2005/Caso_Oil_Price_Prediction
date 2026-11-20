@@ -1,0 +1,8 @@
+variable,series,first_archived_vintage,first_usable_date_in_panel,version_records,median_first_release_lag_calendar_days,p95_first_release_lag_calendar_days,latest_value_differences_vs_fred,latest_missing_differences_vs_fred
+brent,DCOILBRENTEU,2011-04-06,2011-04-06,7390,6.0,8.0,0,0
+wti,DCOILWTICO,2011-04-06,2011-04-06,7482,6.0,8.0,0,0
+gas_natural,DHHNGSP,2014-12-10,2014-12-10,8479,6.0,8.0,0,0
+tipo_bce,ECBDFR,2021-03-11,2021-03-11,12208,0.0,2.0,0,0
+usd_por_eur,DEXUSEU,2014-03-18,2014-03-18,7011,5.0,7.0,0,0
+cny_por_usd,DEXCHUS,2014-03-18,2014-03-18,7014,5.0,7.0,0,0
+vix,VIXCLS,2010-11-22,2010-11-22,7031,0.0,2.0,0,0

@@ -1,0 +1,134 @@
+{
+  "rules": {
+    "name": "regularization_20261118",
+    "source": "data/development_2022",
+    "training_end_exclusive": "2018-01-01",
+    "validation_start": "2018-01-01",
+    "development_end_exclusive": "2023-01-01",
+    "test_start": "2023-01-01",
+    "test_end_exclusive": "2025-01-01",
+    "test_evaluation_enabled": false,
+    "inner_years": 2,
+    "horizons": [
+      5,
+      63,
+      252
+    ],
+    "architectures": [
+      "RNN",
+      "LSTM",
+      "GRU"
+    ],
+    "variants": [
+      "levels",
+      "signals"
+    ],
+    "search_seed": 42,
+    "confirmation_seeds": [
+      43,
+      44
+    ],
+    "maximum_epochs": 60,
+    "patience": 8,
+    "minimum_improvement": 0.0001,
+    "minimum_evaluation_samples": 20,
+    "workers": 2,
+    "cpu_threads_per_worker": 1,
+    "base": {
+      "hidden_size": 32,
+      "num_layers": 1,
+      "head_size": 0,
+      "pooling": "last",
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0,
+      "batch_size": 128,
+      "loss": "mse",
+      "scheduler": false,
+      "window": 60,
+      "target_mode": "change",
+      "separate_horizons": false
+    },
+    "trials": {
+      "control": {},
+      "l2_0001": {
+        "weight_decay": 0.0001
+      },
+      "l2_001": {
+        "weight_decay": 0.001
+      },
+      "small16": {
+        "hidden_size": 16
+      },
+      "slow_lr": {
+        "learning_rate": 0.0003
+      },
+      "huber": {
+        "loss": "huber"
+      },
+      "scheduler": {
+        "scheduler": true
+      },
+      "returns": {
+        "target_mode": "log_return"
+      },
+      "window20": {
+        "window": 20
+      },
+      "separate_returns": {
+        "target_mode": "log_return",
+        "separate_horizons": true
+      }
+    },
+    "selection_rule": "For each trial and variant, average RMSE/known-spot RMSE equally over eligible target years, then horizons, then architectures. Confirm the best two conditions plus signals/control. Rank confirmed conditions over all three seeds; differences below 0.005 favor fewer recurrent branches, then fewer parameters, then trial declaration order.",
+    "walk_forward": [
+      {
+        "name": "2018_2019",
+        "train_end": "2018-01-01",
+        "validation_end": "2020-01-01"
+      },
+      {
+        "name": "2020_2022",
+        "train_end": "2020-01-01",
+        "validation_end": "2023-01-01"
+      }
+    ],
+    "walk_forward_seed": 42,
+    "walk_forward_policy": "Check the selected condition and the common control with the same three cells; this retrospective development check does not change the selected condition and is not an independent test.",
+    "ridge_alphas": [
+      100.0,
+      1000.0
+    ],
+    "ridge_input": "Last observed feature vector; alpha selected on the internal pre-training-boundary block",
+    "refit_policy": "Choose epoch only in internal data; reset weights and train all pre-boundary samples for that fixed epoch count; never evaluate the scored block inside epoch selection or refitting.",
+    "budget": "60 fixed-search jobs, 20 conditions each compared on all 3 cells; then at most 18 confirmation jobs and 12 walk-forward jobs; separate-horizon jobs contain 3 branches and each branch has selection and refit phases. No further search rounds based on results."
+  },
+  "data_manifest": {
+    "rules_sha256": "0a076220795ab9f62dbe17f00f144c4447552926d11ba558e800688de8211a48",
+    "source_hashes": {
+      "data\\processed\\informacion_disponible.csv": "e9b31ee880d0203bf54541c74c86531d9935ba5e9227f64ebf0f6f1998059b6b",
+      "data\\tables\\alfred_DCOILBRENTEU_realtime.csv": "f5cab9dca2f03e0f6bd1b10cdf0d9c5d9b5eb7b06602e12757021321c5d20813"
+    },
+    "first_input_date": "2012-03-22",
+    "last_input_date": "2022-12-30",
+    "rows": 2812,
+    "test_exported": false,
+    "test_start": "2023-01-01",
+    "files": {
+      "levels.csv": "4ba7f4b39d9fc555fdb9a14ac556202929a69be7eee1ad13fd567b2558dea300",
+      "signals.csv": "2db8681178510e94264e12e50c860b99cbfc04b5a3d8710ff5c5426272645739",
+      "target_vintages.csv": "c7d9a88e9a7c62e4e74f09775b7c894cbd6cfcde995e653512c64b3395f1cc1d"
+    }
+  },
+  "code_sha256": {
+    "study/regularized.py": "afdfaca318f22fdcc6d132675588a099917df0eba7a1b61e28b9088ad4082831",
+    "scripts/run_regularized.py": "995723142f58c8b64faf015092f1c07de25ce10fc226e17725f3bfb0948b2677",
+    "study/models.py": "fc46d663a9443a8bcf13d2d0f00e61a92015d06018fed1f0a49fbbac785aed3f",
+    "study/data.py": "1bbcf85da04235b5c6d93af6280c8748ed9f53ef2d4c71431e86a5d2dd2eb1a1",
+    "study/validation.py": "4f133b5984e497dcb8c66a0bb85d816e6bb0b09e0068b23828789ec189e7bdc9",
+    "study/extended.py": "0d51535344af129f58684aab96080a88310d5d0a62962c524ea81ac8c210ef8f",
+    "study/metrics.py": "99655de76b38b509cd94263f772cddca918892c60ee721f0afd8ceae8b240bfc"
+  },
+  "validation_used_for_hyperparameter_comparison": true,
+  "test_evaluated": false
+}

@@ -1,0 +1,9 @@
+{
+  "architecture": "GRU",
+  "variant": "signals",
+  "display_seed": 42,
+  "criterion": "Mean validation RMSE/known-spot RMSE, equal horizon and seed weights",
+  "status": "validation_candidate_only",
+  "test_evaluated": false,
+  "relative_rmse": 0.8470950020412339
+}

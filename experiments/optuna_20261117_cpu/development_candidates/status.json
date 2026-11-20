@@ -1,0 +1,7 @@
+{
+  "phase": "validation_v2",
+  "test_evaluated": false,
+  "calibration_evaluated": false,
+  "selected_during_development_search": true,
+  "seed": 42
+}

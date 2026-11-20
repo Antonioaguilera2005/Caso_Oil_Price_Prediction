@@ -1,0 +1,16 @@
+{
+  "selected_epoch": 24,
+  "epochs_run": 34,
+  "fit_mse_at_selected": 0.7150103647710688,
+  "inner_mse_at_selected": 1.5640753574544957,
+  "fit_mse_last": 0.6537163514726957,
+  "inner_mse_last": 1.6082072181954412,
+  "inner_score_selected": 0.8667582151649968,
+  "inner_score_last": 0.8801922870653222,
+  "inner_deterioration_pct": 1.5499214965926766,
+  "overfit_signal": false,
+  "fit_seconds": 7.294958999962546,
+  "parameters": 1699,
+  "selection_source": "validation_2018_2022",
+  "test_evaluated": false
+}

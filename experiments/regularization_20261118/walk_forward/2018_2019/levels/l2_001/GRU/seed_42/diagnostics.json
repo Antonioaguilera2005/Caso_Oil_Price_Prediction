@@ -1,0 +1,20 @@
+[
+  {
+    "horizons": [
+      5,
+      63,
+      252
+    ],
+    "selected_epoch": 11,
+    "epochs_run": 19,
+    "overfit_signal": true,
+    "inner_deterioration_pct": 25.578104383947363,
+    "parameters": 4899,
+    "inner_score_selected": 0.8246252572892412,
+    "fit_mse_selected": 0.7567483959078818,
+    "inner_mse_selected": 0.4224467558868151,
+    "fit_before": "2018-01-01",
+    "selection_before": "2016-01-01",
+    "maximum_prediction_difference": 0.0
+  }
+]

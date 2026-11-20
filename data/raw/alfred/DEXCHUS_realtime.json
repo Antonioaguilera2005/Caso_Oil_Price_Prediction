@@ -1,0 +1,26 @@
+{
+  "series": "DEXCHUS",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=DEXCHUS",
+  "first_listed_vintage": "2014-03-18",
+  "last_listed_vintage": "2026-11-09",
+  "listed_vintages": 660,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-06",
+  "downloaded_at_utc": "2026-11-14T18:40:35.635388+00:00",
+  "chunks": [
+    {
+      "file": "DEXCHUS_realtime_part001.zip",
+      "first_selected_vintage": "2014-03-18",
+      "last_selected_vintage": "2022-10-24",
+      "sha256": "6c173f93219fee7015fff177ef8d2769d8f308ae151f6cd637646c895749d9cb"
+    },
+    {
+      "file": "DEXCHUS_realtime_part002.zip",
+      "first_selected_vintage": "2022-10-31",
+      "last_selected_vintage": "2026-11-09",
+      "sha256": "43f9574f63c472f83628b30a2270a2d5e71ac03512f39fe4c5877e344a43e0d8"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

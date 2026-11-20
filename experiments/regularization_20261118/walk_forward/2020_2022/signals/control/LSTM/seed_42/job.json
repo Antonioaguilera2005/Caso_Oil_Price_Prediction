@@ -1,0 +1,27 @@
+{
+  "job": {
+    "variant": "signals",
+    "trial": "control",
+    "architecture": "LSTM",
+    "seed": 42,
+    "stage": "walk_forward",
+    "fold": "2020_2022",
+    "train_end": "2020-01-01",
+    "evaluation_end": "2023-01-01"
+  },
+  "settings": {
+    "hidden_size": 32,
+    "num_layers": 1,
+    "head_size": 0,
+    "pooling": "last",
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "batch_size": 128,
+    "loss": "mse",
+    "scheduler": false,
+    "window": 60,
+    "target_mode": "change",
+    "separate_horizons": false
+  }
+}

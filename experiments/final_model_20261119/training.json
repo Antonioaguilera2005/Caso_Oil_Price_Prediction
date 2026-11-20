@@ -1,0 +1,40 @@
+{
+  "fits": [
+    {
+      "seed": 42,
+      "selected_epoch": 7,
+      "epochs_run": 15,
+      "inner_ratio": 0.9505163145941409,
+      "maximum_reload_difference": 0.0,
+      "parameters": 1699
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 7,
+      "epochs_run": 15,
+      "inner_ratio": 0.9385995384840159,
+      "maximum_reload_difference": 0.0,
+      "parameters": 1699
+    },
+    {
+      "seed": 44,
+      "selected_epoch": 7,
+      "epochs_run": 15,
+      "inner_ratio": 0.8785324651849223,
+      "maximum_reload_difference": 0.0,
+      "parameters": 1699
+    }
+  ],
+  "wall_seconds": 37.600439900066704,
+  "fit_labels": [
+    2674,
+    2618,
+    2436
+  ],
+  "internal_labels": [
+    499,
+    441,
+    257
+  ],
+  "test_evaluated": false
+}

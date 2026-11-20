@@ -1,0 +1,17 @@
+{
+  "jobs": 93,
+  "physical_neural_fits": 204,
+  "branches_verified": 102,
+  "maximum_prediction_difference": 0.0,
+  "sum_fit_seconds": 952.1118849000195,
+  "invocation_seconds": 547.6395368999802,
+  "test_evaluated": false,
+  "selected_condition": {
+    "variant": "levels",
+    "trial": "l2_001",
+    "score": 0.9136180276317872,
+    "score_std": 0.06434126366229038,
+    "branches": 1,
+    "parameters": 4365.666666666667
+  }
+}

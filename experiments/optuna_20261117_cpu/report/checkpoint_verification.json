@@ -1,0 +1,11 @@
+{
+  "checkpoints_replayed": 84,
+  "maximum_prediction_difference": 0.0,
+  "inner_epoch_selection_verified": true,
+  "metrics_recomputed": true,
+  "dates_verified": true,
+  "source_hashes_verified": true,
+  "models_trained": 0,
+  "calibration_evaluated": false,
+  "test_evaluated": false
+}

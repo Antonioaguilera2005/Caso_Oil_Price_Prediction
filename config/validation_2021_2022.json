@@ -1,0 +1,20 @@
+{
+  "name": "validation_2021_2022",
+  "start": "2011-04-06",
+  "development_end_exclusive": "2023-01-01",
+  "test_start": "2023-01-01",
+  "test_end_exclusive": "2025-01-01",
+  "test_evaluation_enabled": false,
+  "origin_years": [2021, 2022],
+  "inner_fraction": 0.15,
+  "inner_min_days": 312,
+  "minimum_evaluation_samples": 20,
+  "patience": 10,
+  "window": 60,
+  "horizons": [5, 63, 252],
+  "seeds": [42, 43, 44],
+  "variants": ["levels", "signals"],
+  "epochs": 40,
+  "interval_calibration": "Pendiente: usar residuos anteriores a 2023; no disponer del test para calibrar",
+  "evaluation_unit": "Año del origen; destinos y publicaciones anteriores a 2023"
+}

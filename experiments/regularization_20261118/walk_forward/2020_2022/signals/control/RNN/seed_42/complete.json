@@ -1,0 +1,13 @@
+{
+  "score": 0.9552228427150099,
+  "fit_seconds": 6.799877799930982,
+  "branches": 1,
+  "physical_neural_fits": 2,
+  "parameters": 1699,
+  "selected_epochs": [
+    4
+  ],
+  "overfit_signals": 1,
+  "maximum_prediction_difference": 0.0,
+  "test_evaluated": false
+}

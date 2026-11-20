@@ -1,0 +1,11 @@
+{
+  "variant": "levels",
+  "trial": "control",
+  "purpose": "Matched-input diagnostic only; no candidate reselection",
+  "fixed_seeds": [
+    43,
+    44
+  ],
+  "walk_forward_seed": 42,
+  "test_evaluated": false
+}

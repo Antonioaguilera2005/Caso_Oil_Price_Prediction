@@ -1,0 +1,8 @@
+{
+  "architecture": "GRU",
+  "finished_trials": 32,
+  "best_score": 0.9410831483883304,
+  "seconds_session": 1824.3245202999678,
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}

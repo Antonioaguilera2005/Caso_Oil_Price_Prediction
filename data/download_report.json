@@ -1,0 +1,120 @@
+{
+  "downloaded_at_utc": "2026-11-14T17:58:16.140619+00:00",
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "offline": false,
+  "sources": {
+    "brent": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 6507,
+      "last_observation": "2026-11-11"
+    },
+    "wti": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 6358,
+      "last_observation": "2026-11-11"
+    },
+    "gas_natural": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DHHNGSP&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 5433,
+      "last_observation": "2026-11-11"
+    },
+    "tipo_bce": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ECBDFR&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 9814,
+      "last_observation": "2026-11-13"
+    },
+    "usd_por_eur": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 6732,
+      "last_observation": "2026-11-06"
+    },
+    "cny_por_usd": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXCHUS&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 6733,
+      "last_observation": "2026-11-06"
+    },
+    "vix": {
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS&cosd=2000-01-01&coed=2026-11-14",
+      "observations": 6791,
+      "last_observation": "2026-11-12"
+    },
+    "brent_fut": {
+      "ticker": "BZ=F",
+      "observations": 4804,
+      "last_observation": "2026-11-13"
+    },
+    "wti_fut": {
+      "ticker": "CL=F",
+      "observations": 6586,
+      "last_observation": "2026-11-13"
+    },
+    "cobre": {
+      "ticker": "HG=F",
+      "observations": 6582,
+      "last_observation": "2026-11-13"
+    },
+    "oro": {
+      "ticker": "GC=F",
+      "observations": 6578,
+      "last_observation": "2026-11-13"
+    },
+    "indice_dolar": {
+      "ticker": "DX-Y.NYB",
+      "observations": 6787,
+      "last_observation": "2026-11-13"
+    }
+  },
+  "warnings": [
+    "Cesta OPEP no disponible: HTTPError: HTTP Error 403: Forbidden"
+  ],
+  "rows": 7009,
+  "columns": [
+    "brent",
+    "wti",
+    "gas_natural",
+    "tipo_bce",
+    "usd_por_eur",
+    "cny_por_usd",
+    "vix",
+    "brent_fut_Open",
+    "brent_fut_High",
+    "brent_fut_Low",
+    "brent_fut_Close",
+    "brent_fut_Volume",
+    "wti_fut_Open",
+    "wti_fut_High",
+    "wti_fut_Low",
+    "wti_fut_Close",
+    "wti_fut_Volume",
+    "cobre",
+    "oro",
+    "indice_dolar"
+  ],
+  "first_date": "2000-01-04",
+  "last_date": "2026-11-13",
+  "last_observed_brent": "2026-11-11",
+  "missing": {
+    "brent": 502,
+    "wti": 0,
+    "gas_natural": 4,
+    "tipo_bce": 0,
+    "usd_por_eur": 0,
+    "cny_por_usd": 0,
+    "vix": 0,
+    "brent_fut_Open": 1974,
+    "brent_fut_High": 1974,
+    "brent_fut_Low": 1974,
+    "brent_fut_Close": 1974,
+    "brent_fut_Volume": 1974,
+    "wti_fut_Open": 166,
+    "wti_fut_High": 166,
+    "wti_fut_Low": 166,
+    "wti_fut_Close": 166,
+    "wti_fut_Volume": 166,
+    "cobre": 171,
+    "oro": 171,
+    "indice_dolar": 0
+  },
+  "sha256": "dd25d9541ca1402e9204340ea471ec3672e363f07696a15047fbb6c083c64798"
+}

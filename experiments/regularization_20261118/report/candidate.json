@@ -1,0 +1,22 @@
+{
+  "architecture": "RNN",
+  "variant": "levels",
+  "trial": "l2_001",
+  "settings": {
+    "hidden_size": 32,
+    "num_layers": 1,
+    "head_size": 0,
+    "pooling": "last",
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "batch_size": 128,
+    "loss": "mse",
+    "scheduler": false,
+    "window": 60,
+    "target_mode": "change",
+    "separate_horizons": false
+  },
+  "status": "development_candidate_not_final_test",
+  "test_evaluated": false
+}

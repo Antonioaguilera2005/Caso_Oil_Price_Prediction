@@ -1,0 +1,44 @@
+[
+  {
+    "architecture": "RNN",
+    "variant": "levels",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  },
+  {
+    "architecture": "RNN",
+    "variant": "signals",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  },
+  {
+    "architecture": "LSTM",
+    "variant": "levels",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  },
+  {
+    "architecture": "LSTM",
+    "variant": "signals",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  },
+  {
+    "architecture": "GRU",
+    "variant": "levels",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  },
+  {
+    "architecture": "GRU",
+    "variant": "signals",
+    "seed": 42,
+    "maximum_prediction_difference": 0.0,
+    "rows_verified": 3488
+  }
+]

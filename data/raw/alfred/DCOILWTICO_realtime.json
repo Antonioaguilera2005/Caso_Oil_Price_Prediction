@@ -1,0 +1,26 @@
+{
+  "series": "DCOILWTICO",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=DCOILWTICO",
+  "first_listed_vintage": "2011-04-06",
+  "last_listed_vintage": "2026-11-12",
+  "listed_vintages": 806,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-11",
+  "downloaded_at_utc": "2026-11-14T18:40:15.407087+00:00",
+  "chunks": [
+    {
+      "file": "DCOILWTICO_realtime_part001.zip",
+      "first_selected_vintage": "2011-04-06",
+      "last_selected_vintage": "2019-11-27",
+      "sha256": "f5588838275d3ab886766687e1974e8baae67a3f74b84fb7d1be1af2db2902f0"
+    },
+    {
+      "file": "DCOILWTICO_realtime_part002.zip",
+      "first_selected_vintage": "2019-12-04",
+      "last_selected_vintage": "2026-11-12",
+      "sha256": "ab0b58efc4d1c6fda4c36b778cb5a76e689dabd5c0e2570def69c5618e1b30b9"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

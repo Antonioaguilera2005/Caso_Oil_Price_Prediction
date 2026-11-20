@@ -1,0 +1,26 @@
+{
+  "series": "DHHNGSP",
+  "url": "https://alfred.stlouisfed.org/series/downloaddata?seid=DHHNGSP",
+  "first_listed_vintage": "2014-12-10",
+  "last_listed_vintage": "2026-11-12",
+  "listed_vintages": 615,
+  "requested_start": "2000-01-01",
+  "requested_end": "2026-11-14",
+  "observation_end": "2026-11-11",
+  "downloaded_at_utc": "2026-11-14T18:40:20.268180+00:00",
+  "chunks": [
+    {
+      "file": "DHHNGSP_realtime_part001.zip",
+      "first_selected_vintage": "2014-12-10",
+      "last_selected_vintage": "2023-08-23",
+      "sha256": "ce82d5566a5f25eb0674973cd74eb1f576df117a0962d0572f7d64fe4c2327d4"
+    },
+    {
+      "file": "DHHNGSP_realtime_part002.zip",
+      "first_selected_vintage": "2023-08-30",
+      "last_selected_vintage": "2026-11-12",
+      "sha256": "d9cba5ffcab41d4ea094c6899262a7334b31023c4045380b61e6e9b8acbdc24f"
+    }
+  ],
+  "output_format": "real_time_periods"
+}

@@ -1,0 +1,171 @@
+{
+  "rules": {
+    "name": "fixed_split_2017_2022",
+    "strategy": "single_chronological_holdout",
+    "training_end_exclusive": "2018-01-01",
+    "validation_start": "2018-01-01",
+    "development_end_exclusive": "2023-01-01",
+    "test_start": "2023-01-01",
+    "test_end_exclusive": "2025-01-01",
+    "test_evaluation_enabled": false,
+    "window": 60,
+    "horizons": [
+      5,
+      63,
+      252
+    ],
+    "variants": [
+      "levels",
+      "signals"
+    ],
+    "architectures": [
+      "RNN",
+      "LSTM",
+      "GRU"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 40,
+    "patience": 10,
+    "minimum_evaluation_samples": 20,
+    "cpu_threads": 1,
+    "settings_source": "experiments/optuna_20261117_cpu/report/recommendations.json",
+    "fits_per_candidate_and_seed": 1,
+    "annual_weight_refit": false,
+    "target_imputation": false,
+    "selection": "Best epoch by mean per-horizon validation RMSE / known-spot RMSE over the complete 2018-2022 validation block",
+    "boundary_rule": "Both origin and target belong to their partition; use target vintages published before its end; mask invalid labels independently by horizon",
+    "reporting": "Validation is used for selection, not an independent final test; annual tables reuse the same checkpoint"
+  },
+  "candidate_settings": {
+    "RNN": {
+      "hidden_size": 32,
+      "num_layers": 1,
+      "head_size": 0,
+      "pooling": "last",
+      "batch_size": 128,
+      "weight_decay": 0.0,
+      "loss": "mse",
+      "scheduler": false,
+      "dropout": 0.0,
+      "learning_rate": 0.001,
+      "epochs": 40,
+      "seed": 42,
+      "gradient_clip_norm": 1.0,
+      "cpu_threads": 1
+    },
+    "LSTM": {
+      "hidden_size": 32,
+      "num_layers": 1,
+      "head_size": 32,
+      "pooling": "max",
+      "batch_size": 64,
+      "weight_decay": 0.001,
+      "loss": "mse",
+      "scheduler": false,
+      "dropout": 0.11685785941408727,
+      "learning_rate": 0.0003476649150592621,
+      "epochs": 40,
+      "seed": 42,
+      "gradient_clip_norm": 1.0,
+      "cpu_threads": 1
+    },
+    "GRU": {
+      "hidden_size": 32,
+      "num_layers": 1,
+      "head_size": 0,
+      "pooling": "last",
+      "batch_size": 128,
+      "weight_decay": 0.0,
+      "loss": "mse",
+      "scheduler": false,
+      "dropout": 0.16355872118519432,
+      "learning_rate": 0.001722115140113572,
+      "epochs": 40,
+      "seed": 42,
+      "gradient_clip_norm": 1.0,
+      "cpu_threads": 1
+    }
+  },
+  "candidate_trials": {
+    "RNN": 0,
+    "LSTM": 3,
+    "GRU": 24
+  },
+  "data_manifest": {
+    "rules_sha256": "0a076220795ab9f62dbe17f00f144c4447552926d11ba558e800688de8211a48",
+    "source_hashes": {
+      "data\\processed\\informacion_disponible.csv": "e9b31ee880d0203bf54541c74c86531d9935ba5e9227f64ebf0f6f1998059b6b",
+      "data\\tables\\alfred_DCOILBRENTEU_realtime.csv": "f5cab9dca2f03e0f6bd1b10cdf0d9c5d9b5eb7b06602e12757021321c5d20813"
+    },
+    "first_input_date": "2012-03-22",
+    "last_input_date": "2022-12-30",
+    "rows": 2812,
+    "test_exported": false,
+    "test_start": "2023-01-01",
+    "files": {
+      "levels.csv": "4ba7f4b39d9fc555fdb9a14ac556202929a69be7eee1ad13fd567b2558dea300",
+      "signals.csv": "2db8681178510e94264e12e50c860b99cbfc04b5a3d8710ff5c5426272645739",
+      "target_vintages.csv": "c7d9a88e9a7c62e4e74f09775b7c894cbd6cfcde995e653512c64b3395f1cc1d"
+    }
+  },
+  "code_sha256": {
+    "study/fixed.py": "0df9dd4e4fc66287db3e7d8c28434e4ed7580822555d07604a844ec0b2efdcad",
+    "scripts/run_fixed_split.py": "a2682e1e038540cf95b0f1aea371912af68abc3a972a2744e14e87d6ce283557",
+    "study/validation.py": "4f133b5984e497dcb8c66a0bb85d816e6bb0b09e0068b23828789ec189e7bdc9",
+    "study/data.py": "1bbcf85da04235b5c6d93af6280c8748ed9f53ef2d4c71431e86a5d2dd2eb1a1",
+    "study/models.py": "fc46d663a9443a8bcf13d2d0f00e61a92015d06018fed1f0a49fbbac785aed3f",
+    "study/extended.py": "0d51535344af129f58684aab96080a88310d5d0a62962c524ea81ac8c210ef8f",
+    "study/search.py": "1b3ecf37319538a259afc3f49cc5b55f3e6fc1ed10ae7f598155f405fb9a78d9",
+    "study/metrics.py": "99655de76b38b509cd94263f772cddca918892c60ee721f0afd8ceae8b240bfc"
+  },
+  "partitions": {
+    "levels": {
+      "training_end_exclusive": "2018-01-01",
+      "validation_start": "2018-01-01",
+      "validation_end_exclusive": "2023-01-01",
+      "first_available_input": "2012-03-22",
+      "first_training_origin": "2012-06-13",
+      "fit_samples": 1439,
+      "validation_samples": 1296,
+      "fit_labels_by_horizon": [
+        1405,
+        1349,
+        1167
+      ],
+      "validation_labels_by_horizon": [
+        1263,
+        1205,
+        1020
+      ],
+      "test_evaluated": false,
+      "annual_weight_refit": false
+    },
+    "signals": {
+      "training_end_exclusive": "2018-01-01",
+      "validation_start": "2018-01-01",
+      "validation_end_exclusive": "2023-01-01",
+      "first_available_input": "2012-03-22",
+      "first_training_origin": "2012-06-13",
+      "fit_samples": 1439,
+      "validation_samples": 1296,
+      "fit_labels_by_horizon": [
+        1405,
+        1349,
+        1167
+      ],
+      "validation_labels_by_horizon": [
+        1263,
+        1205,
+        1020
+      ],
+      "test_evaluated": false,
+      "annual_weight_refit": false
+    }
+  },
+  "selection_data_is_reported_validation": true,
+  "test_evaluated": false
+}

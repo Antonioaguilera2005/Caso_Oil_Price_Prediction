@@ -1,0 +1,24 @@
+{
+  "samples": [
+    {
+      "series": "DCOILBRENTEU",
+      "requested_vintage": "2020-04-22",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DCOILBRENTEU&cosd=2000-01-01&coed=2020-04-22&vintage_date=2020-04-22",
+      "status": "snapshot_downloaded",
+      "column": "DCOILBRENTEU_20200422",
+      "last_observation": "2020-04-13",
+      "observations": 5153
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "requested_vintage": "2020-04-29",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DCOILBRENTEU&cosd=2000-01-01&coed=2020-04-29&vintage_date=2020-04-29",
+      "status": "snapshot_downloaded",
+      "column": "DCOILBRENTEU_20200429",
+      "last_observation": "2020-04-27",
+      "observations": 5162
+    }
+  ],
+  "complete_availability_history": false,
+  "note": "Dos instantáneas de diagnóstico. No sustituyen el historial completo de primeras publicaciones y revisiones."
+}

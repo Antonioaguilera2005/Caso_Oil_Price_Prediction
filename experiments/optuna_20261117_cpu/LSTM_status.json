@@ -1,0 +1,8 @@
+{
+  "architecture": "LSTM",
+  "finished_trials": 40,
+  "best_score": 0.9477638677729162,
+  "seconds_session": 1705.5775886000483,
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}

@@ -1,0 +1,159 @@
+{
+  "policy": {
+    "name": "initialization_stability_v1",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "best_search_candidates_per_architecture": 2,
+    "include_baseline": true,
+    "recommendation_minimum_absolute_score_gain": 0.005,
+    "recommendation_minimum_seeds_better_than_baseline": 2,
+    "recommendation_require_mean_plus_std_better": true,
+    "scope": "development_only_not_independent_test"
+  },
+  "candidates": {
+    "RNN": [
+      {
+        "trial": 0,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 128,
+          "weight_decay": 0.0,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.0,
+          "learning_rate": 0.001,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      },
+      {
+        "trial": 24,
+        "settings": {
+          "hidden_size": 16,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 64,
+          "weight_decay": 0.0001,
+          "loss": "huber",
+          "scheduler": false,
+          "dropout": 0.07522260733261435,
+          "learning_rate": 0.0016043671226801297,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      }
+    ],
+    "LSTM": [
+      {
+        "trial": 3,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 32,
+          "pooling": "max",
+          "batch_size": 64,
+          "weight_decay": 0.001,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.11685785941408727,
+          "learning_rate": 0.0003476649150592621,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      },
+      {
+        "trial": 0,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 128,
+          "weight_decay": 0.0,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.0,
+          "learning_rate": 0.001,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      }
+    ],
+    "GRU": [
+      {
+        "trial": 24,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 128,
+          "weight_decay": 0.0,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.16355872118519432,
+          "learning_rate": 0.001722115140113572,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      },
+      {
+        "trial": 27,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 128,
+          "weight_decay": 1e-05,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.1621701846063242,
+          "learning_rate": 0.0015167169241085208,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      },
+      {
+        "trial": 0,
+        "settings": {
+          "hidden_size": 32,
+          "num_layers": 1,
+          "head_size": 0,
+          "pooling": "last",
+          "batch_size": 128,
+          "weight_decay": 0.0,
+          "loss": "mse",
+          "scheduler": false,
+          "dropout": 0.0,
+          "learning_rate": 0.001,
+          "epochs": 40,
+          "seed": 42,
+          "gradient_clip_norm": 1.0,
+          "cpu_threads": 1
+        }
+      }
+    ]
+  },
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}

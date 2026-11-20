@@ -1,0 +1,19 @@
+{
+  "spot_observations": 6507,
+  "spot_missing_weekdays": 500,
+  "last_observed_spot": "2026-11-11",
+  "future_observations": 4804,
+  "alfred_vintages_downloaded": true,
+  "alfred_snapshot_count": 2,
+  "alfred_full_histories_downloaded": [
+    "DCOILBRENTEU",
+    "DCOILWTICO",
+    "DHHNGSP",
+    "ECBDFR",
+    "DEXUSEU",
+    "DEXCHUS",
+    "VIXCLS"
+  ],
+  "publication_dates_reconstructed_within_archive_coverage": true,
+  "note": "Tablas de diagnóstico sin imputación. No se han calculado métricas de modelos ni elegido configuraciones con estas tablas."
+}

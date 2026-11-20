@@ -1,0 +1,10 @@
+{
+  "name": "initialization_stability_v1",
+  "seeds": [42, 43, 44],
+  "best_search_candidates_per_architecture": 2,
+  "include_baseline": true,
+  "recommendation_minimum_absolute_score_gain": 0.005,
+  "recommendation_minimum_seeds_better_than_baseline": 2,
+  "recommendation_require_mean_plus_std_better": true,
+  "scope": "development_only_not_independent_test"
+}

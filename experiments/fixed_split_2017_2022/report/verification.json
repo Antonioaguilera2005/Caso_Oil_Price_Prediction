@@ -1,0 +1,24 @@
+{
+  "models_fitted": 18,
+  "checkpoints_verified": 18,
+  "maximum_prediction_difference": 0.0,
+  "test_evaluated": false,
+  "annual_weight_refit": false,
+  "sum_fit_seconds": 257.3802096998552,
+  "overfit_signals": 5,
+  "invocation_seconds": 267.7918251999654,
+  "validation_used_for_epoch_selection": true,
+  "training_code_hashes_verified": true,
+  "predictions_before_test": true,
+  "models_trained_by_report": 0,
+  "best_validation_candidate": {
+    "architecture": "GRU",
+    "variant": "signals",
+    "display_seed": 42,
+    "criterion": "Mean validation RMSE/known-spot RMSE, equal horizon and seed weights",
+    "status": "validation_candidate_only",
+    "test_evaluated": false,
+    "relative_rmse": 0.8470950020412339
+  },
+  "report_sha256": "e1578e7982b3254640a7fa63cda547230694bbb772fbec32e4ca7340cc34506c"
+}

@@ -1,0 +1,28 @@
+{
+  "input_sha256": {
+    "plan.json": "3de3845038657946fb33c6233736f60729fca33c7c8bc152e1108bc1b5c7f46b",
+    "complete.json": "a4846e29a0de934e0c3bd57372a99ee3e0c0777e081ff4e276dc4d6927cd2a27",
+    "replay.json": "a90a400c1d8acd2950157ece6ebaad292e8ae67c4d14a79ad43656be8f794e29",
+    "predictions.csv": "6ef8986e9cbf2b1b7702332eef10c85964e42b3ae4efacaa43d614f20262ca25",
+    "metrics.csv": "1304a616e911394f7b5958738940c4b9b27e2abd6387d91e9175191118c1f9dc",
+    "validation_metrics.csv": "b948c8513b66d50223c3d04a0587bacc1f522d288d4a035bb34eabdbecb0972c",
+    "sample_counts.csv": "60942c0aa5e26d48ab924ddab55a0add0bf70730bc5fab29fc5f61cf6ab2a788"
+  },
+  "report_generator_sha256": "b94b6ce8d8a20254c92de7bca5b0481c9928d4b753d3ac77e389e9ce1e6aa351",
+  "models": 6,
+  "seed": 42,
+  "forecasts": 7188,
+  "metric_rows_all": 18,
+  "figures": 3,
+  "fitting_performed": false,
+  "evaluation_recomputed": false,
+  "report_files_sha256": {
+    "comparison_wide.csv": "a2e64b2b553b6012163abbd11da8901bb1dba84b6d31999d0f6d307d6dff5faf",
+    "ratios_validation_test.csv": "29f961c678cdcdccaa251f01f7aa6253faab91f96a9e81b79ea5782fb591e99c",
+    "INFORME.md": "0379d1076ceb73ef6063b2e81c7a2efc16e55de49effef4281e2da9f658003b3",
+    "comparacion.html": "8564f9e5b6c983e0da8a6e2b611d29e3edfc93faffd8c48110929bc66f14c953",
+    "01_comparacion_completa.png": "2ac21d234233ed66ce3c7bdcedc14053d518d568273a530db54f5e41a97c31cd",
+    "02_validacion_vs_test.png": "5f5a72004df715f73be6ed14fe315edd0718e2245c6ba056e5976b26ccbcd77d",
+    "03_diagnostico.png": "4779f6ad987ac365ab70dd7ab2111aaed79ed07520bf8cc2b66367286de30d31"
+  }
+}

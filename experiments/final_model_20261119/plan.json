@@ -1,0 +1,70 @@
+{
+  "name": "final_model_20261119",
+  "development_end_exclusive": "2023-01-01",
+  "test_start": "2023-01-01",
+  "test_end_exclusive": "2025-01-01",
+  "architecture": "RNN",
+  "variant": "levels",
+  "condition": "l2_001",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "horizons": [
+    5,
+    63,
+    252
+  ],
+  "neural_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection_rule": "Use the three-seed average of saved 2018-2022 development forecasts. Minimize RMSE/known-spot-naive RMSE, averaging eligible target years within horizon and then horizons equally. Among weights within 0.005 of the minimum choose the smallest neural weight. One common weight across horizons. Never optimize for a desired numerical ratio.",
+  "minimum_year_samples": 20,
+  "tie_tolerance": 0.005,
+  "final_fit": "Select epochs separately for seeds 42,43,44 with fitting labels before 2021 and internal validation origins and targets in 2021-2022, then initialize fresh models and refit all labels published before 2023 for exactly those epoch counts. No test labels or features enter training or scaling.",
+  "maximum_epochs": 60,
+  "patience": 8,
+  "minimum_improvement": 0.0001,
+  "interval": "Symmetric empirical 80% absolute-residual quantile per horizon from saved 2018-2022 development ensemble with selected weight. These reused development residuals and overlapping targets do not provide a coverage guarantee for the final refitted model; report test coverage.",
+  "origin_regime": "21-weekday standard deviation of changes in log known Brent. Threshold = 90th percentile of pre-2023 values. Classify each origin using only its current and past observations. Low volatility at origin cannot rule out a subsequent unexpected shock.",
+  "test_policy": "Freeze settings, blending weight, scalers, checkpoints, interval widths and volatility threshold before loading test features or labels. Evaluate once on origins and targets in 2023-2024 with frozen weights; updating inputs does not retrain. Keep all observed target prices, including crises. Missing target prices are excluded, never filled. Do not tune after test results.",
+  "settings": {
+    "hidden_size": 32,
+    "num_layers": 1,
+    "head_size": 0,
+    "pooling": "last",
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "batch_size": 128,
+    "loss": "mse",
+    "scheduler": false,
+    "window": 60,
+    "target_mode": "change",
+    "separate_horizons": false
+  },
+  "written_utc": "2026-11-19T16:29:45.785213+00:00",
+  "config_sha256": "891ede2770199ceab7d96a99fb68cb2498b8c38d77c13e96cb7ec74fe0208ca0",
+  "source_manifest": {
+    "rules_sha256": "0a076220795ab9f62dbe17f00f144c4447552926d11ba558e800688de8211a48",
+    "source_hashes": {
+      "data\\processed\\informacion_disponible.csv": "e9b31ee880d0203bf54541c74c86531d9935ba5e9227f64ebf0f6f1998059b6b",
+      "data\\tables\\alfred_DCOILBRENTEU_realtime.csv": "f5cab9dca2f03e0f6bd1b10cdf0d9c5d9b5eb7b06602e12757021321c5d20813"
+    },
+    "first_input_date": "2012-03-22",
+    "last_input_date": "2022-12-30",
+    "rows": 2812,
+    "test_exported": false,
+    "test_start": "2023-01-01",
+    "files": {
+      "levels.csv": "4ba7f4b39d9fc555fdb9a14ac556202929a69be7eee1ad13fd567b2558dea300",
+      "signals.csv": "2db8681178510e94264e12e50c860b99cbfc04b5a3d8710ff5c5426272645739",
+      "target_vintages.csv": "c7d9a88e9a7c62e4e74f09775b7c894cbd6cfcde995e653512c64b3395f1cc1d"
+    }
+  }
+}

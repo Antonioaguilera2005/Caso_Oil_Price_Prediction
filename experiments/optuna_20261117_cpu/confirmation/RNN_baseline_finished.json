@@ -1,0 +1,15 @@
+{
+  "candidates": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "new_models_fitted": 8,
+  "seconds_session": 48.34449070005212,
+  "started_at": "2026-11-17T16:43:23.886794+00:00",
+  "finished_at": "2026-11-17T16:44:12.231291+00:00",
+  "reused_seed": 42,
+  "test_evaluated": false,
+  "calibration_evaluated": false
+}
