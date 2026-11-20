@@ -7,7 +7,7 @@ LSTM y GRU. Incluye datos con fecha de disponibilidad, experimentos conservados,
 evaluación temporal, una aplicación HTML con inferencia en el navegador y la
 presentación de resultados. El modelo de entrega es una **RNN con señales**.
 
-**[Abrir la aplicación](https://brent-observatorio-uax-anton.excellenthotel1.chatgpt.site)** ·
+**[Abrir la aplicación](https://brent-observatorio.onrender.com/)** ·
 [Presentación PDF](docs/presentation/Prediccion_Petroleo_RNN_UAX.pdf) ·
 [PowerPoint](docs/presentation/Prediccion_Petroleo_RNN_UAX.pptx) ·
 [Informe de evaluación](experiments/recovered_fixed_test_20261120/report/INFORME.md)
@@ -195,9 +195,10 @@ examinar contexto histórico e importar nuevas observaciones mediante CSV.
 La carga actualiza las entradas y pasa por la red existente; **no reentrena**.
 Las filas añadidas se guardan en el navegador y pueden descargarse o restaurarse.
 
-La versión pública está enlazada al principio. El despliegue en Render y la
-publicación en Hugging Face están **preparados, pendientes de realizar**:
-[guía de despliegue](docs/deployment/DESPLIEGUE.md).
+La aplicación está publicada en **[Render](https://brent-observatorio.onrender.com/)**.
+El paquete del modelo está preparado en `model_hub/rnn-brent-signals`; su
+publicación en Hugging Face está pendiente. La [guía de despliegue](docs/deployment/DESPLIEGUE.md)
+explica cómo subir sus pesos, escalador, código de inferencia y ficha del modelo.
 El PowerPoint, PDF y plantilla están en [`docs/presentation/`](docs/presentation/).
 
 ## Documentación y fuentes

@@ -7,7 +7,9 @@ del proyecto. Una comprobación con Chrome sin sesión no mostró «Edit site»,
 «Remix» ni controles de ChatGPT. El archivo `app_site/dist/standalone.html` y
 la entrega estática de Render contienen únicamente la app y sus datos.
 
-Esta preparación es local: todavía no se ha creado ningún recurso en tus cuentas de Render o Hugging Face.
+La aplicación está publicada en **[brent-observatorio.onrender.com](https://brent-observatorio.onrender.com/)**.
+Se ha comprobado que la URL responde por HTTPS y que su HTML coincide con la
+construcción local. El paquete para Hugging Face está preparado; su subida está pendiente.
 
 ## 1. Preparar el repositorio
 
@@ -49,7 +51,23 @@ Tras cada actualización de la rama vinculada, comprueba en Render que el despli
 
 La carpeta que se debe subir es **`model_hub/rnn-brent-signals`**, no el repositorio completo. No contiene tablas completas de mercado, cuentas, tokens ni el checkpoint serializado con pickle. Se reconstruye la red a partir de los pesos JSON verificados.
 
-En tu cuenta de Hugging Face, crea un repositorio de tipo **Model** con el nombre que prefieras, por ejemplo `rnn-brent-signals`. En **Files and versions → Add file → Upload files**, añade los archivos de esa carpeta y confirma la subida. Conserva sus nombres: `README.md` es la ficha que mostrará Hugging Face. Elige la visibilidad que necesites; la app de Render seguirá funcionando aunque el repositorio del modelo sea privado, porque lleva su propia copia de los pesos.
+1. Abre [la creación de modelos de Hugging Face](https://huggingface.co/new),
+   selecciona tu usuario como propietario y escribe `rnn-brent-signals` como nombre.
+   La visibilidad **Public** permite al profesor abrir el enlace sin una cuenta.
+2. Pulsa **Create model** y entra en **Files and versions → Add file → Upload files**.
+3. Selecciona los **12 archivos** que hay directamente dentro de
+   `model_hub/rnn-brent-signals`, incluidos `README.md` y `.gitignore`.
+   No selecciones la carpeta local `__pycache__`. Los archivos deben quedar en
+   la raíz del repositorio de Hugging Face, sin una carpeta contenedora adicional.
+4. Escribe un mensaje como `Publicar RNN Brent con señales` y pulsa **Commit changes**.
+5. Comprueba que la pestaña **Model card** muestra la arquitectura, las métricas
+   y las instrucciones, y que **Files and versions** contiene `model.json` y
+   los demás archivos. La URL para compartir tendrá la forma
+   `https://huggingface.co/TU_USUARIO/rnn-brent-signals`.
+
+Conserva los nombres de los archivos: `README.md` es la ficha que mostrará Hugging Face
+y `model.json` contiene los pesos originales. La app de Render lleva su propia copia
+de los pesos y seguirá funcionando durante la publicación del modelo.
 
 Alternativa por terminal, sustituyendo `TU_USUARIO` por tu usuario real:
 
