@@ -9,7 +9,11 @@ la entrega estática de Render contienen únicamente la app y sus datos.
 
 La aplicación está publicada en **[brent-observatorio.onrender.com](https://brent-observatorio.onrender.com/)**.
 Se ha comprobado que la URL responde por HTTPS y que su HTML coincide con la
-construcción local. El paquete para Hugging Face está preparado; su subida está pendiente.
+construcción local. El modelo está publicado en
+**[Hugging Face](https://huggingface.co/Antonioaguilera2005/rnn-brent-signals)**.
+Se ha comprobado el acceso público sin autenticación y la coincidencia SHA-256
+de los 12 archivos con el paquete local en la
+[revisión `92a04ba`](https://huggingface.co/Antonioaguilera2005/rnn-brent-signals/tree/92a04ba192a51221ba3d385ebc09400bef4434d1).
 
 ## 1. Preparar el repositorio
 

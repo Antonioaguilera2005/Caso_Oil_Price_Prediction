@@ -8,6 +8,7 @@ evaluación temporal, una aplicación HTML con inferencia en el navegador y la
 presentación de resultados. El modelo de entrega es una **RNN con señales**.
 
 **[Abrir la aplicación](https://brent-observatorio.onrender.com/)** ·
+[Modelo en Hugging Face](https://huggingface.co/Antonioaguilera2005/rnn-brent-signals) ·
 [Presentación PDF](docs/presentation/Prediccion_Petroleo_RNN_UAX.pdf) ·
 [PowerPoint](docs/presentation/Prediccion_Petroleo_RNN_UAX.pptx) ·
 [Informe de evaluación](experiments/recovered_fixed_test_20261120/report/INFORME.md)
@@ -77,7 +78,7 @@ en Windows o el prefijo `poetry run` en otros sistemas.
 | [`notebooks/`](README.md#notebooks) | Análisis ejecutados y comparación visual de resultados |
 | [`tests/`](tests/) | Pruebas del tratamiento temporal, entrenamiento, métricas y aplicación |
 | [`docs/`](docs/) | Enunciado, reproducción, fuentes y presentación |
-| [`model_hub/`](model_hub/rnn-brent-signals/README.md) | Paquete portable del modelo preparado para Hugging Face |
+| [`model_hub/`](model_hub/rnn-brent-signals/README.md) | Paquete portable del modelo publicado en Hugging Face |
 | [`render.yaml`](render.yaml) | Configuración del sitio estático en Render |
 | [`setup.ps1`](setup.ps1) | Instalación reproducible del entorno en Windows |
 
@@ -196,9 +197,10 @@ La carga actualiza las entradas y pasa por la red existente; **no reentrena**.
 Las filas añadidas se guardan en el navegador y pueden descargarse o restaurarse.
 
 La aplicación está publicada en **[Render](https://brent-observatorio.onrender.com/)**.
-El paquete del modelo está preparado en `model_hub/rnn-brent-signals`; su
-publicación en Hugging Face está pendiente. La [guía de despliegue](docs/deployment/DESPLIEGUE.md)
-explica cómo subir sus pesos, escalador, código de inferencia y ficha del modelo.
+El modelo está publicado en **[Hugging Face](https://huggingface.co/Antonioaguilera2005/rnn-brent-signals)**,
+con acceso público a sus pesos, escalador, código de inferencia y ficha del modelo.
+Los 12 archivos publicados coinciden con el paquete local de `model_hub/rnn-brent-signals`.
+La [guía de despliegue](docs/deployment/DESPLIEGUE.md) documenta ambas publicaciones.
 El PowerPoint, PDF y plantilla están en [`docs/presentation/`](docs/presentation/).
 
 ## Documentación y fuentes
